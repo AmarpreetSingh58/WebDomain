@@ -1,0 +1,1639 @@
+<!DOCTYPE html>
+<html itemscope="itemscope" itemtype="https://schema.org/NewsArticle" class="no-js" prefix="og: https://ogp.me/ns#" lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	
+	
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="robots" content="noarchive">
+	<meta name="msvalidate.01" content="915AE10930FFCE1EFBB9D7838CE66DE7" />
+
+	<title>
+		The year Ottawa tech became a cash magnet | Windsor Star	</title>
+	
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://windsorstar.com/xmlrpc.php">
+
+	
+	<script type="text/javascript">
+/*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
+/* This file is meant as a standalone workflow for
+- testing support for link[rel=preload]
+- enabling async CSS loading in browsers that do not support rel=preload
+- applying rel preload css once loaded, whether supported or not.
+*/
+(function( w ){
+	"use strict";
+	// rel=preload support test
+	if( !w.loadCSS ){
+		w.loadCSS = function(){};
+	}
+	var rp = loadCSS.relpreload = {};
+	// rel=preload feature support test
+	// runs once and returns a function for compat purposes
+	rp.support = (function(){
+		var ret;
+		try {
+			ret = w.document.createElement( "link" ).relList.supports( "preload" );
+		} catch (e) {
+			ret = false;
+		}
+		return function(){
+			return ret;
+		};
+	})();
+	// if preload isn't supported, get an asynchronous load by using a non-matching media attribute
+	// then change that media back to its intended value on load
+	rp.bindMediaToggle = function( link ){
+		// remember existing media attr for ultimate state, or default to 'all'
+		var finalMedia = link.media || "all";
+
+		function enableStylesheet(){
+			link.media = finalMedia;
+		}
+
+		// bind load handlers to enable media
+		if( link.addEventListener ){
+			link.addEventListener( "load", enableStylesheet );
+		} else if( link.attachEvent ){
+			link.attachEvent( "onload", enableStylesheet );
+		}
+
+		// Set rel and non-applicable media type to start an async request
+		// note: timeout allows this to happen async to let rendering continue in IE
+		setTimeout(function(){
+			link.rel = "stylesheet";
+			link.media = "only x";
+		});
+		// also enable media after 3 seconds,
+		// which will catch very old browsers (android 2.x, old firefox) that don't support onload on link
+		setTimeout( enableStylesheet, 3000 );
+	};
+
+	// loop through link elements in DOM
+	rp.poly = function(){
+		// double check this to prevent external calls from running
+		if( rp.support() ){
+			return;
+		}
+		var links = w.document.getElementsByTagName( "link" );
+		for( var i = 0; i < links.length; i++ ){
+			var link = links[ i ];
+			// qualify links to those with rel=preload and as=style attrs
+			if( link.rel === "preload" && link.getAttribute( "as" ) === "style" && !link.getAttribute( "data-loadcss" ) ){
+				// prevent rerunning on link
+				link.setAttribute( "data-loadcss", true );
+				// bind listeners to toggle media back
+				rp.bindMediaToggle( link );
+			}
+		}
+	};
+	// if unsupported, run the polyfill
+	if( !rp.support() ){
+		// run once at least
+		rp.poly();
+
+		// rerun poly on an interval until onload
+		var run = w.setInterval( rp.poly, 500 );
+		if( w.addEventListener ){
+			w.addEventListener( "load", function(){
+				rp.poly();
+				w.clearInterval( run );
+			} );
+		} else if( w.attachEvent ){
+			w.attachEvent( "onload", function(){
+				rp.poly();
+				w.clearInterval( run );
+			} );
+		}
+	}
+	// commonjs
+	if( typeof exports !== "undefined" ){
+		exports.loadCSS = loadCSS;
+	}
+	else {
+		w.loadCSS = loadCSS;
+	}
+}( typeof global !== "undefined" ? global : this ) );
+
+</script>
+
+	<link rel="preload" href="https://s2.wp.com/wp-content/themes/vip/postmedia-theme-broadsheet/fonts/TitlingGothicFBCondStandard/5993ebd0-66f0-45c7-8230-d8c123bfc3a7-5.woff2" as="font" type="font/woff2" crossorigin>
+			<link rel="preload" href="https://s2.wp.com/wp-content/themes/vip/postmedia-theme-broadsheet/fonts/BentonSansRegular/BentonSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+	
+					<meta name="description" content="Ordinarily, this would be a very big deal.&amp;nbsp; The day after Ottawa&amp;rsquo;s civic elections, software company Assent Compliance revealed it had raised $130 million from investors to finance future growth &amp;mdash; one of this year&amp;rsquo;s biggest equity investments for a Canadian startup." />
+							<meta name="news_keywords" content="assent compliance, canopy growth, hexo, mitel networks, shopify" />
+			<meta name="google-site-verification" content="JrkIjXpOy38cuT1TQjtIzB5ZEkzvLo20TRuRAFzL8A8" />
+
+<!-- Async WordPress.com Remote Login -->
+<script id="wpcom_remote_login_js">
+var wpcom_remote_login_extra_auth = '';
+function wpcom_remote_login_remove_dom_node_id( element_id ) {
+	var dom_node = document.getElementById( element_id );
+	if ( dom_node ) { dom_node.remove(); }
+}
+function wpcom_remote_login_remove_dom_node_classes( class_name ) {
+	var dom_nodes = document.querySelectorAll( '.' + class_name );
+	for ( var i = 0; i < dom_nodes.length; i++ ) {
+		dom_nodes[i].remove();
+	}
+}
+function wpcom_remote_login_final_cleanup() {
+	wpcom_remote_login_remove_dom_node_classes( "wpcom_remote_login_msg" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_key" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_validate" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_js" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_request_access_iframe" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_request_access_styles" );
+}
+
+// Watch for messages back from the remote login
+window.addEventListener( "message", function( e ) {
+	if ( e.origin === "https://r-login.wordpress.com" ) {
+		var data = {};
+		try {
+			data = JSON.parse( e.data );
+		} catch( e ) {
+			wpcom_remote_login_final_cleanup();
+			return;
+		}
+
+		if ( data.msg === 'LOGIN' ) {
+			// Clean up the login check iframe
+			wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_key" );
+
+			var id_regex = new RegExp( /^[0-9]+$/ );
+			var token_regex = new RegExp( /^.*|.*|.*$/ );
+			if (
+				token_regex.test( data.token )
+				&& id_regex.test( data.id )
+			) {
+				// We have everything we need to ask for a login
+				var script = document.createElement( "script" );
+				script.setAttribute( "id", "wpcom_remote_login_validate" );
+				script.src = '/remote-login.php?wpcom_remote_login=validate'
+					+ '&id=' + data.id
+					+ '&token=' + encodeURIComponent( data.token )
+					+ '&host=' + window.location.protocol
+						+ '//' + window.location.hostname;
+				document.body.appendChild( script );
+			}
+
+			return;
+		}
+
+		// Safari ITP, not logged in, so redirect
+		if ( data.msg === 'LOGIN-REDIRECT' ) {
+			window.location = 'https://wordpress.com/log-in?redirect_to=' + window.location.href;
+			return;
+		}
+
+		// Safari ITP, storage access failed, remove the request
+		if ( data.msg === 'LOGIN-REMOVE' ) {
+			var css_zap = 'html { -webkit-transition: margin-top 1s; transition: margin-top 1s; } /* 9001 */ html { margin-top: 0 !important; } * html body { margin-top: 0 !important; } @media screen and ( max-width: 782px ) { html { margin-top: 0 !important; } * html body { margin-top: 0 !important; } }';
+			var style_zap = document.createElement( 'style' );
+			style_zap.type = 'text/css';
+			style_zap.appendChild( document.createTextNode( css_zap ) );
+			document.body.appendChild( style_zap );
+
+			var e = document.getElementById( 'wpcom_request_access_iframe' );
+			e.parentNode.removeChild( e );
+
+			document.cookie = 'wordpress_com_login_access=denied; path=/; max-age=31536000';
+
+			return;
+		}
+
+		// Safari ITP
+		if ( data.msg === 'REQUEST_ACCESS' ) {
+			console.log( 'request access: safari' );
+
+			// Check ITP iframe enable/disable knob
+			if ( wpcom_remote_login_extra_auth !== 'safari_itp_iframe' ) {
+				return;
+			}
+
+			// If we are in a "private window" there is no ITP.
+			var private_window = false;
+			try {
+				var opendb = window.openDatabase( null, null, null, null );
+			} catch( e ) {
+				private_window = true;
+			}
+
+			if ( private_window ) {
+				console.log( 'private window' );
+				return;
+			}
+
+			var iframe = document.createElement( 'iframe' );
+			iframe.id = 'wpcom_request_access_iframe';
+			iframe.setAttribute( 'scrolling', 'no' );
+			iframe.setAttribute( 'sandbox', 'allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-top-navigation-by-user-activation' );
+			iframe.src = 'https://r-login.wordpress.com/remote-login.php?wpcom_remote_login=request_access&origin=' + encodeURIComponent( data.origin ) + '&id=' + encodeURIComponent( data.id );
+
+			var css = 'html { -webkit-transition: margin-top 1s; transition: margin-top 1s; } /* 9001 */ html { margin-top: 46px !important; } * html body { margin-top: 46px !important; } @media screen and ( max-width: 660px ) { html { margin-top: 71px !important; } * html body { margin-top: 71px !important; } #wpcom_request_access_iframe { display: block; height: 71px !important; } } #wpcom_request_access_iframe { border: 0px; height: 46px; position: fixed; top: 0; left: 0; width: 100%; min-width: 100%; z-index: 99999; background: #23282d; } ';
+
+			var style = document.createElement( 'style' );
+			style.type = 'text/css';
+			style.id = 'wpcom_request_access_styles';
+			style.appendChild( document.createTextNode( css ) );
+			document.body.appendChild( style );
+
+			document.body.appendChild( iframe );
+		}
+
+		if ( data.msg === 'DONE' ) {
+			wpcom_remote_login_final_cleanup();
+		}
+	}
+}, false );
+
+// Inject the remote login iframe after the page has had a chance to load
+// more critical resources
+window.addEventListener( "DOMContentLoaded", function( e ) {
+	var iframe = document.createElement( "iframe" );
+	iframe.style.display = "none";
+	iframe.setAttribute( "scrolling", "no" );
+	iframe.setAttribute( "id", "wpcom_remote_login_key" );
+	iframe.src = "https://r-login.wordpress.com/remote-login.php"
+		+ "?wpcom_remote_login=key"
+		+ "&origin=aHR0cHM6Ly93aW5kc29yc3Rhci5jb20%3D"
+		+ "&id=79897690"
+		+ "&time=1554259612";
+	document.body.appendChild( iframe );
+}, false );
+</script>
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//contributor.google.com' />
+<link rel='dns-prefetch' href='//platform.twitter.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//cdn.adsafeprotected.com' />
+<link rel='dns-prefetch' href='//dpcthkef9k46t.cloudfront.net' />
+<link rel='dns-prefetch' href='//static.freeskreen.com' />
+<link rel='dns-prefetch' href='//ak.sail-horizon.com' />
+<link rel='dns-prefetch' href='//cdn.mediavoice.com' />
+<link rel='dns-prefetch' href='//postmediawindsorstar2.wordpress.com' />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<link rel='stylesheet' id='all-css-0-1' href='https://s0.wp.com/_static/??-eJy1VcmO2zAM/aEqQqdpkEtR9NLzAC2QYyHJjM2JNoiyM/n70rIdZ2YKIwt6Mchn8nEzaXmMwgSfwWeZG3BAssMoY6DsoEIlCih0CqqiBoCtwEWrMhtGVD50r9LQKK9Y+iRvZjRWEbHZ82Qid6DlDqsaMsmfzzuVTWOR8g8LiZE+3j6K4wQLVfAP0V0rom1r9MSoCU6QQwund9qSm8UD5/UCOSpzEEU7m6M3tq1gSKfiNKS2oVjppNJJUj5ZWDn0SwFMSMC4iyr3FqV6sNwfnxfLGXvThx5kkeF10cXFzRSoFxsu6IqOaR0TEAl+OmzdMLtFP/bqsx+aVRJ8gwyuKH3IyN50Fq77dqYo7xHh4UgWcoZUYs7qvd8kkzjFxEqHDsQ+2OoBpnFeDzCQQpub1Ipx3PPrB0g7SNQ+lJVhVAmn0qGNN07QCwoGlR3goayBtMDiEr+NutwT3CNUdMk7w3+uYB25zn3/snq6GOWKWk0moYb/cvN+g3K/+tugg0rV2OpJXdq+GoLgK6QyBv9GEXur8OMyXLgyuw01i3WJN6t3Vjj/JzqsIAxF8K4fTqIA9y48V3Wu8HK3/nVpR8pmLWsbtLK9wXf37fPX9Wa73a43Ty9/AUZWqOE=?cssminify=yes' type='text/css' media='all' />
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyFztEKwjAMBdAfsiu6Dp/Eb6k1jtQlrU3q0K+3A30QhkLgPtwDN3bOBjlM9QxiY7tbhfJ4RxdlY38BQzgWr9AR8geHxAqsi81JlEDEj7DSUjrhBKYKlAZY28wlrbjvl5DvCPNfFkGzD1dTQPC5rB/psB0Gt+v7vXPxBTjQW9A='></script>
+<script type='text/javascript' src='https://contributor.google.com/scripts/446a78e82a3d3895/loader.js?ver=5.2-beta1-45048'></script>
+<script type='text/javascript' src='https://s1.wp.com/wp-content/themes/vip/postmedia-plugins/postmedia-library/classes/Postmedia/Web/Plugins/GoogleFunding/js/new-google-funding.js?m=1547649280h'></script>
+<script type='text/javascript' async src='https://cdn.adsafeprotected.com/iasPET.1.js?ver=5.2-beta1-45048'></script>
+<script type='text/javascript' src='https://dpcthkef9k46t.cloudfront.net/assets/pn-just-in-time.js?tsmin=25904086&#038;ver=5.2-beta1-45048'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var PostmediaVO = {"appServiceUrl":"http:\/\/app.canada.com\/video\/video.svc"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??-eJydzFEOgjAQBNALWRdiCPJBOEtjV9xKu5tuLfH2biIn4G8ymXmwi3twrpgr1BcmVGgkIKw1YSDvZPuslBXCU5wPClFBsl34TXiNeoFzwI7e1uUMZO9GAdlxw1IsHeS/lM1/sRi4pLkfuvtt6Mdxij/L6lXI'></script>
+<script type='text/javascript' src='//ak.sail-horizon.com/spm/spm.v1.min.js?ver=5.2-beta1-45048'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tag = {"options":{"customerId":"b9d3df2fccd108b5eff3c44f573b2cd6"}};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var Postmedia = {"adConfig":{"site":"ws_bus.com","msite":"ws.m","preroll":"on","networkId":3081,"keys":{"aid":["2bf93df0-a60e-4aea-8689-522498e5ba17","1282385"],"author":"james-bagnall","ck":"business","nk":"print","page":"story","pr":"ws","sck":"local-business","agegate":"true"},"async":false,"enablecasale":false,"sticky_ads":{"sticky_ldrb":{"sizes":[["728","90"],["970","90"]],"time":3}},"zone":"business\/local-business\/story"},"Urls":{"home_url":"https:\/\/windsorstar.com","stylesheet_directory_uri":"https:\/\/s2.wp.com\/wp-content\/themes\/vip\/postmedia-theme-broadsheet","ajaxurl":"https:\/\/windsorstar.com\/wp-admin\/admin-ajax.php"},"Properties":{"domain":"","userAgents":["mozilla","msie","webkit","ipad"],"mobileAgents":["iphone","ipod","android"],"isMobile":false,"isIpad":false,"isModal":false},"Facebook":{"pageId":"41743dd369ff9d9d763282ea7e2cd33e","appId":"239752276115767","mobileId":"ws.m"}};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var PN_VO = {"appServiceUrl":"https:\/\/api.pddataservices.com"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var postmedia_geolocation = {"nonce":"6fc06b7bb8"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJy9kctuxCAMRX+ogIZO1FXVX5hVuzbgJk5JSLHJiL9vHh11NVUf0uyQ8T3HBnOelE+j4ChGOhyQzUyTmWJpaWTDQFG6XNS9tqZnI9Dqnu/MlVRiGTAQqK2oXE4QuEOUNeuDV0Uo8r8IAQR+BLis4CMw0ythYHWm0O6o/r1grtpXH1FDjNrqB/sd98qD7ETNxbHP5PBXo31VIrkMue7DLv2ny415QWdOn/3PFDCt1nk9qDRjjlBvo5wWE+bbuFjIv1W1bflHY4spJg9Cady+CWEJZj3QuACfhsdDczzag21s038AkgohPw=='></script>
+<link rel='stylesheet' id='all-css-0-2' href='https://s0.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1530132353h&cssminify=yes' type='text/css' media='all' />
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s2.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563h&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://postmediawindsorstar2.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel="canonical" href="https://ottawacitizen.com/business/local-business/the-year-ottawa-tech-became-a-cash-magnet" />
+<link rel='shortlink' href='https://windsorstar.com/wcm/2bf93df0-a60e-4aea-8689-522498e5ba17' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/?format=json&amp;url=https%3A%2F%2Fwindsorstar.com%2Fbusiness%2Flocal-business%2Fthe-year-ottawa-tech-became-a-cash-magnet%2Fwcm%2F2bf93df0-a60e-4aea-8689-522498e5ba17&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/?format=xml&amp;url=https%3A%2F%2Fwindsorstar.com%2Fbusiness%2Flocal-business%2Fthe-year-ottawa-tech-became-a-cash-magnet%2Fwcm%2F2bf93df0-a60e-4aea-8689-522498e5ba17&amp;for=wpcom-auto-discovery" />
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="The year Ottawa tech became a cash magnet" />
+<meta property="og:url" content="https://windsorstar.com/business/local-business/the-year-ottawa-tech-became-a-cash-magnet/wcm/2bf93df0-a60e-4aea-8689-522498e5ba17" />
+<meta property="og:description" content="Ordinarily, this would be a very big deal.&nbsp; The day after Ottawa&rsquo;s civic elections, software company Assent Compliance revealed it had raised $130 million from investors to finance futur…" />
+<meta property="article:published_time" content="2018-10-28T23:39:06+00:00" />
+<meta property="article:modified_time" content="2018-10-29T21:17:22+00:00" />
+<meta property="og:site_name" content="Windsor Star" />
+<meta property="og:image" content="https://postmediaottawacitizen2.files.wordpress.com/2016/05/assent-compliance1.jpeg" />
+<meta property="og:image:width" content="200" />
+<meta property="og:image:height" content="200" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@thewindsorstar" />
+<meta name="twitter:text:title" content="The year Ottawa tech became a cash magnet" />
+<meta name="twitter:image" content="https://postmediaottawacitizen2.files.wordpress.com/2016/05/assent-compliance1.jpeg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="The year Ottawa tech became a cash magnet" />
+<meta name="twitter:description" content="Ordinarily, this would be a very big deal.&nbsp; The day after Ottawa&rsquo;s civic elections, software company Assent Compliance revealed it had raised $130 million from investors to finance future growth &mdash; one of this year&rsquo;s biggest equity investments for a Canadian startup." />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="shortcut icon" type="image/x-icon" href="https://secure.gravatar.com/blavatar/97db7402998b7be4aa95f5c03e508a93?s=32" sizes="16x16" />
+<link rel="icon" type="image/x-icon" href="https://secure.gravatar.com/blavatar/97db7402998b7be4aa95f5c03e508a93?s=32" sizes="16x16" />
+<link rel="apple-touch-icon-precomposed" href="https://secure.gravatar.com/blavatar/97db7402998b7be4aa95f5c03e508a93?s=114" />
+<link rel='openid.server' href='https://postmediawindsorstar2.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='https://postmediawindsorstar2.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="https://windsorstar.com/osd.xml" title="Windsor Star" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<meta name="stats-full-init" value="0.014" />
+<meta name="stats-postmedia_theme_pre_initialize" value="0.000" />
+<meta name="stats-initialize" value="0.013" />
+<meta name="stats-postmedia_theme_post_initialize" value="0.001" />
+<meta name="stats-vip_load_plugins" value="0.003" />
+<meta name="stats-load_plugins" value="0.009" />
+<meta name="stats-register_widgets" value="0.001" />
+			<meta property="fb:pages" content="42682032028" />
+							<meta property="ia:markup_url" content="https://windsorstar.com/business/local-business/the-year-ottawa-tech-became-a-cash-magnet/wcm/2bf93df0-a60e-4aea-8689-522498e5ba17?ia_markup=1" />
+								<script type="text/javascript">var AamGpt={strictEncode:function(a){return encodeURIComponent(a).replace(/[!'()]/g,escape).replace(/\*/g,'%2A')},getCookie:function(b){var d,a,f,e=document.cookie.split(';');for(d=0;d<e.length;d++){a=e[d].substr(0,e[d].indexOf('='));f=e[d].substr(e[d].indexOf('=')+1);a=a.replace(/^\s+|\s+$/g,'');if(a==b){return unescape(f)}}},getKey:function(a){var d=this.getCookie(a);d=this.strictEncode(d);if(typeof d!='undefined'&&d.match(/\w+%3D/)){var b=d.split('%3D');if(typeof b[0]!='undefined'&&b[0].match(/\w+/)){return b[0]}}},getValues:function(a){var e=this.getCookie(a);e=this.strictEncode(e);if(typeof e!='undefined'&&e.match(/\w+%3D\w+/)){var b=e.split('%3D');if(typeof b[1]!='undefined'&&b[1].match(/\w+/)){var d=b[1].split('%2C');if(typeof d[0]!='undefined'){return d}else{return null}}else{return null}}else{return null}}};</script>
+								<script type="text/javascript" async src="//js-sec.indexww.com/ht/p/184635-3683795904303.js"> </script>
+						<script type="text/javascript"> var googletag=googletag||{};googletag.cmd=googletag.cmd||[];(function(){var a=document.getElementsByTagName('script')[0],b=document.createElement("script");b.async=true;b.src="https://www.googletagservices.com/tag/js/gpt.js";b.type='text/javascript';a.parentNode.insertBefore(b,a)}()); </script>
+		<script type="text/javascript">
+		/*
+		* Call Hook function for DFP Plugin
+		*/
+			if (typeof hookGoogleTagObjectCreated === "function") {
+				hookGoogleTagObjectCreated();
+			}
+		</script>
+
+		<script type="text/javascript">
+			googletag.cmd.push(function(){
+						 googletag.pubads()
+			
+					 .setTargeting(
+						'agegate'
+						, "true"					 )
+
+					
+					 .setTargeting(
+						'aid'
+						, ["2bf93df0-a60e-4aea-8689-522498e5ba17","1282385"]					 )
+
+					
+					 .setTargeting(
+						'author'
+						, "james-bagnall"					 )
+
+					
+					 .setTargeting(
+						'ck'
+						, "business"					 )
+
+					
+					 .setTargeting(
+						'nk'
+						, "print"					 )
+
+					
+					 .setTargeting(
+						'page'
+						, "story"					 )
+
+					
+					 .setTargeting(
+						'pr'
+						, "ws"					 )
+
+					
+					 .setTargeting(
+						'sck'
+						, "local-business"					 )
+
+					
+
+						;
+							 if( typeof AamGpt.getCookie( "aam_dfp" ) != "undefined" ){ googletag.pubads().setTargeting( AamGpt.getKey( "aam_dfp" ),AamGpt.getValues( "aam_dfp") ); };
+
+				
+			if( typeof AamGpt.getCookie("aam_uuid") != "undefined" ){ googletag.pubads().setTargeting( "aamId", AamGpt.getCookie("aam_uuid") ); };
+
+
+			if ( document.referrer )
+				googletag.pubads().setTargeting( "r" ,document.referrer.split('/')[2] )
+			
+				if ( 'undefined' != typeof pnWeatherCookieHandler && null != pnWeatherCookieHandler ) {
+
+					var pn_weather = pnWeatherCookieHandler.setPostmediaAdConfig();
+				}
+
+				if ( 'undefined' != typeof pn_weather ) {
+
+					if ( null != pn_weather ) {
+
+						if ( null != pn_weather.wc ) {
+
+							googletag.pubads().setTargeting( "wc" , pn_weather.wc );
+
+							googletag.pubads().setTargeting( "wt", pn_weather.wt );
+
+							googletag.pubads().setTargeting( "ww", pn_weather.ww );
+
+						}
+
+					}
+
+				}
+
+				if(  'undefined' != typeof I10C ) {
+					if ( 'undefined' != I10C.Morph ) {
+						if ( null != I10C.Morph ) {
+							if ( 1 == I10C.Morph ) {
+							   googletag.pubads().setTargeting( "shield" , "1" );
+							}
+						}
+					}
+				}
+							googletag.pubads().collapseEmptyDivs();
+			
+ 	 googletag.pubads().disableInitialLoad();
+ 	 googletag.enableServices();		});
+		</script>
+
+		
+		 <!-- Amazon Ad Tag --> 
+            <script type='text/javascript'>
+                ! function(a9, a, p, s, t, A, g) {
+                    if (a[a9]) return;
+
+                    function q(c, r) {
+                        a[a9]._Q.push([c, r])
+                    }
+                    a[a9] = {
+                        init: function() {
+                            q("i", arguments)
+                        },
+                        fetchBids: function() {
+                            q("f", arguments)
+                        },
+                        setDisplayBids: function() {},
+                        _Q: []
+                    };
+                    A = p.createElement(s);
+                    A.async = !0;
+                    A.src = t;
+                    g = p.getElementsByTagName(s)[0];
+                    g.parentNode.insertBefore(
+                        A, g)
+                }("apstag", window, document, "script", "//c.amazon-adsystem.com/aax2/apstag.js");apstag.init({
+                        pubID: '3528',
+                        adServer: 'googletag',
+                        bidTimeout: '2e3'
+                    });
+            </script>
+
+		<script type="text/javascript">
+			/* <![CDATA[ */
+			var adSlots = [];
+			/* ]]> */
+		</script>
+            <script type="text/javascript">
+                /* <![CDATA[ */
+                var pn_Gpt_Weather = {"wc":"mainly-clear","wt":"3","ww":"1"};
+                /* ]]> */
+            </script><meta name="ROBOTS" content="NOARCHIVE" /><script type="text/javascript">
+function janrainSignOut() {
+	janrain.capture.ui.endCaptureSession();
+}
+(function() {
+	if ( typeof window.janrain !== 'object' ) {
+		window.janrain = {};
+	}
+	window.janrain.settings = {};
+	window.janrain.settings.capture = {};
+
+	// capture settings
+	janrain.settings.capture.redirectUri = "https://postmediawindsorstar2.wordpress.com/wp-admin/admin-ajax.php?action=janrain_capture_redirect_uri";
+	janrain.settings.capture.appId = "ztcpr5854s8kyh93khrgw44sv9";
+	janrain.settings.capture.clientId = "jwze6dse55fgqchrwptq7cq2a5paqxdg";
+	janrain.settings.capture.responseType = 'token';
+	janrain.settings.capture.captureServer = "https://postmedia.us.janraincapture.com";
+	janrain.settings.capture.registerFlow = 'socialRegistration';
+	janrain.settings.packages = ["capture","login"];
+
+	janrain.settings.capture.setProfileCookie = true;
+	janrain.settings.capture.keepProfileCookieAfterLogout = true;
+	janrain.settings.capture.setProfileData = 'true';
+
+	janrain.settings.capture.federateEnableSafari = true;
+
+	// styles
+	janrain.settings.capture.stylesheets = ["https://s1.wp.com/wp-content/themes/vip/postmedia-plugins/postmedia-library/classes/Postmedia/Web/Plugins/JanrainCapture/janrain-capture-screens/stylesheets/styles.css","https://postmediawindsorstar2.wordpress.com/wp-content/themes/vip/postmedia-theme-broadsheet/janrain-capture-screens/stylesheets/styles.css?m=1516026540h"];
+	janrain.settings.capture.mobileStylesheets = ["https://s2.wp.com/wp-content/themes/vip/postmedia-plugins/postmedia-library/classes/Postmedia/Web/Plugins/JanrainCapture/janrain-capture-screens/stylesheets/mobile-styles.css"];
+	janrain.settings.capture.recaptchaPublicKey = '6LeVKb4SAAAAAGv-hg5i6gtiOV4XrLuCDsJOnYoP';
+		
+		// engage settings
+		janrain.settings.appUrl = "https://login.canada.com";
+		janrain.settings.tokenAction = 'event';
+	
+				
+		// federate settings
+		janrain.settings.capture.federate = 1;
+		janrain.settings.capture.federateServer = "https://postmedia.us.janrainsso.com";
+		janrain.settings.capture.federateXdReceiver = "https://s1.wp.com/wp-content/themes/vip/postmedia-plugins/postmedia-library/classes/Postmedia/Web/Plugins/JanrainCapture/xdcomm.html";
+		janrain.settings.capture.federateLogoutUri = "https://postmediawindsorstar2.wordpress.com/wp-login.php?loggedout=true";
+	
+	function isReady() {
+		janrain.ready = true;
+	}
+	if (document.addEventListener) {
+		document.addEventListener( 'DOMContentLoaded', isReady, false );
+	} else {
+		window.attachEvent( 'onload', isReady );
+	}
+
+	var e = document.createElement( 'script' );
+	e.type = 'text/javascript';
+	e.id = 'janrainAuthWidget'
+	var url = document.location.protocol === 'https:' ? 'https://' : 'http://';
+	url += "widget-cdn.rpxnow.com/load/login.canada.com";
+	e.src = url;
+	var s = document.getElementsByTagName( 'script' )[0];
+	s.parentNode.insertBefore( e, s );
+})();
+</script>
+		
+
+<!-- BEGIN Sailthru Horizon Meta Information -->
+<meta name="sailthru.date" content="2018-10-28 19:39:06" />
+<meta name="sailthru.title" content="The year Ottawa tech became a cash magnet" />
+<meta name="sailthru.tags" content="brand-windsorstar, category-localbusiness, Ottawa firms, Ottawa area firms, cannabis firms, significant portion, non-tech firms, prominent real estate firms, spirits company, Ottawa, software company Assent Compliance, shares, cash reserves, Searchlight Capital Partners, further share sales, cash, larger tech corporations, Ottawa&#039;s civic elections, much investment money, equity, important year, net cash position, investors, Canopy Growth, significant ownership, significant catalyst, Last week&#039;s equity investment, Waitman, strong cash balances, tech boom, important lesson, corporate investors" />
+<meta name="sailthru.description" content="Ordinarily, this would be a very big deal." />
+<meta name="sailthru.image.full" content="https://postmediaottawacitizen2.files.wordpress.com/2016/05/assent-compliance1.jpeg" />
+<meta name="sailthru.image.thumb" content="https://postmediaottawacitizen2.files.wordpress.com/2016/05/assent-compliance1.jpeg" />
+<!-- END Sailthru Horizon Meta Information -->
+
+			<meta name="google-site-verification" content="ljXFsNxnI10A5Du893byKprf90Ycw4E4nL7sYyc7wTU" />
+						<meta itemprop="genre" content="News" />
+					<script type='text/javascript'>
+			/* <![CDATA[ */
+							var pn_theme_piano_app_id = "kvh83nNiMM";
+						/* ]]> */
+		</script>
+								<meta property="fb:pages" content="110225254594" />
+												<meta property="fb:pages" content="168282878593" />
+												<meta property="fb:pages" content="7561650675" />
+												<meta property="fb:pages" content="7116517082" />
+												<meta property="fb:pages" content="20654027008" />
+												<meta property="fb:pages" content="141888329160971" />
+												<meta property="fb:pages" content="164697223559731" />
+												<meta property="fb:pages" content="207513175076" />
+												<meta property="fb:pages" content="100429659640" />
+												<meta property="fb:pages" content="42682032028" />
+												<meta property="fb:pages" content="6533373917" />
+												<meta property="fb:pages" content="273805206181" />
+										<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+				new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+				j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+				'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+				})(window,document,"script","dataLayer","GTM-MKM4ZNQ");</script>
+				
+			<meta itemprop="mainEntityOfPage" content="https://windsorstar.com/business/local-business/the-year-ottawa-tech-became-a-cash-magnet/wcm/2bf93df0-a60e-4aea-8689-522498e5ba17" />
+			<meta itemprop="datePublished" content="October 28, 2018" />
+			<meta itemprop="dateModified" content="October 29, 2018">
+			<meta itemprop="copyrightYear" content="2018" />
+			<meta itemprop="description" name="description" content="Ordinarily, this would be a very big deal.&nbsp; The day after Ottawa&rsquo;s civic elections, software company Assent Compliance revealed it had raised $130 million from investors to finance future growth &mdash; one of this year&rsquo;s biggest equity investments for a Canadian startup." />
+
+			<meta property="fb:app_id" content="239752276115767" />
+<meta property="fb:page_id" content="41743dd369ff9d9d763282ea7e2cd33e" />
+<meta property="fb:admins" content="100002625504753" />
+		<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<script type="text/javascript">var sailthru_vars = {"ajaxurl":"https:\/\/postmediawindsorstar2.wordpress.com\/wp-admin\/admin-ajax.php"}</script><meta name="application-name" content="Windsor Star" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Windsor Latest News, Breaking Headlines &amp; Sports" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://windsorstar.com/feed;icon-uri=https://secure.gravatar.com/blavatar/97db7402998b7be4aa95f5c03e508a93?s=16" /><link rel="amphtml" href="https://windsorstar.com/business/local-business/the-year-ottawa-tech-became-a-cash-magnet/wcm/2bf93df0-a60e-4aea-8689-522498e5ba17/amp"><style type="text/css" id="syntaxhighlighteranchor"></style>
+<script type="text/javascript">var Postmedia=Postmedia || {}; Postmedia.Analytics=Postmedia.Analytics || {}; Postmedia.Analytics.Driving = Postmedia.Analytics.Driving || {}; Postmedia.Analytics.Video=Postmedia.Analytics.Video || {}; Postmedia.Search = Postmedia.Search || {};Postmedia.Analytics.PageTypeDriving = "story";Postmedia.Analytics.Driving.CategoryDriving = "business";Postmedia.Analytics.PageType = "story";Postmedia.Analytics.ContentAlternateTitle = null;Postmedia.Analytics.ContentExcerpt = null;Postmedia.Analytics.PublishedDate = "2018\/10\/28";Postmedia.Analytics.PublishedTimeOfDay= "23:39:06";Postmedia.Analytics.ModifiedDate = "2018\/10\/29";Postmedia.Analytics.ModifiedTimeOfDay = "21:17:22";Postmedia.Analytics.OriginProperty = false;Postmedia.Analytics.WPGlobalSlug = "1029 tech";Postmedia.Analytics.WordCount = 763;Postmedia.Analytics.WPCanonicalUrl = "http:\/\/ottawacitizen.com\/business\/local-business\/the-year-ottawa-tech-became-a-cash-magnet";Postmedia.Analytics.NLP = {"entities":[{"value":"Associations & groups","score":null,"rank":"R","level":1,"children":[{"value":"group","score":null,"rank":"R","level":2,"children":[{"value":"Searchlight Capital Partners","score":null,"rank":"R","level":3}]}]},{"value":"Companies","score":null,"rank":"R","level":1,"children":[{"value":"company","score":null,"rank":"R","level":2,"children":[{"value":"HEXO corp.","score":null,"rank":"R","level":3}]},{"value":"food beverage tobacco company","score":null,"rank":"SR","level":2,"children":[{"value":"Constellation Brands","score":null,"rank":"SR","level":3}]},{"value":"it company","score":null,"rank":"SR","level":2,"children":[{"value":"Nortel Networks","score":null,"rank":"SR","level":3}]},{"value":"group","score":null,"rank":"SR","level":2,"children":[{"value":"Real Estate Investment Trust","score":null,"rank":"SR","level":3}]}]},{"value":"People","score":null,"rank":"R","level":1,"children":[{"value":"person","score":null,"rank":"R","level":2,"children":[{"value":"Andrew Waitman","score":null,"rank":"R","level":3}]}]},{"value":"Countries","score":null,"rank":"R","level":1,"children":[{"value":"location","score":null,"rank":"R","level":2,"children":[{"value":"U.S.","score":null,"rank":"R","level":3},{"value":"Canada","score":null,"rank":"SR","level":3},{"value":"U.K.","score":null,"rank":"SR","level":3}]}]},{"value":"Locations & natural formations","score":null,"rank":"R","level":1,"children":[{"value":"location","score":null,"rank":"R","level":2,"children":[{"value":"New York","score":null,"rank":"R","level":3}]},{"value":"city","score":null,"rank":"R","level":2,"children":[{"value":"Warburg","score":null,"rank":"R","level":3}]}]}],"categories":[{"value":"Business","score":5.58},{"value":"Financial","score":5.1}],"key_topics":[{"value":"Ottawa firms","score":null},{"value":"Ottawa area firms","score":null},{"value":"cannabis firms","score":null},{"value":"significant portion","score":null},{"value":"non-tech firms","score":null},{"value":"prominent real estate firms","score":null},{"value":"spirits company","score":null},{"value":"Ottawa","score":null},{"value":"software company Assent Compliance","score":null},{"value":"shares","score":null},{"value":"cash reserves","score":null},{"value":"Searchlight Capital Partners","score":null},{"value":"further share sales","score":null},{"value":"cash","score":null},{"value":"larger tech corporations","score":null},{"value":"Ottawa's civic elections","score":null},{"value":"much investment money","score":null},{"value":"equity","score":null},{"value":"important year","score":null},{"value":"net cash position","score":null},{"value":"investors","score":null},{"value":"Canopy Growth","score":null},{"value":"significant ownership","score":null},{"value":"significant catalyst","score":null},{"value":"Last week's equity investment","score":null},{"value":"Waitman","score":null},{"value":"strong cash balances","score":null},{"value":"tech boom","score":null},{"value":"important lesson","score":null},{"value":"corporate investors","score":null}]};Postmedia.Analytics.PublicationDate = "2018\/10\/28";Postmedia.Analytics.PublicationTimeOfDay= "23:39:06";Postmedia.Analytics.Authors = "jebagnall";Postmedia.Analytics.ContentId = "2bf93df0-a60e-4aea-8689-522498e5ba17";Postmedia.Analytics.ContentOriginId = "1282385";Postmedia.Analytics.KMCCategory = "business>local-business";Postmedia.Analytics.MetaKeywords = "assent compliance, canopy growth, hexo, mitel networks, shopify";Postmedia.Analytics.CategoryAll = "business\/local-business";Postmedia.Analytics.SubCategories = "local-business";</script>				<!--Invisibly Pixel Code -->
+					<script>
+						window.ia = window.ia || function() {
+							(window.ia.q = window.ia.q || []).push(arguments);
+						};
+						ia("track", "PAGE_VIEW");
+					</script>
+					<noscript>
+						<img height="1" width="1" style="display:none" src="https://api.pymx5.com/v1/sites/track?event_type=PAGE_VIEW&noscript=1" />
+					</noscript>
+				<!-- END Invisibly Pixel Code -->
+								<script type="text/javascript">
+					var Postmedia=Postmedia || {};
+					Postmedia.Audience=Postmedia.Audience || {};
+					Postmedia.Audience.iframeCount = 0;
+					Postmedia.Audience.globalMparticleId = false;
+					Postmedia.Audience.mParticleID = "cd4afed6a2719d439af431746c942e3c";
+					Postmedia.Audience.identityRequest = Postmedia.Audience.identityRequest || { userIdentities: {} };
+					Postmedia.Audience.mParticleDevelopmentMode =
+					false;				</script>
+				</head>
+<body class="post-template-default single single-post postid-2bf93df0-a60e-4aea-8689-522498e5ba17 single-format-standard mp6 customizer-styles-applied group-blog highlander-enabled highlander-light" >
+					<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MKM4ZNQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+				
+	
+	<div id="fb-root"></div>
+				<div class="out-of-page">
+			<!-- Out of Page Ad -->
+							<div id="gpt-oop" class="pn_dfpads adslot">
+							<script type="text/javascript">
+
+					jQuery( document ).ready( function() {
+			apstag.fetchBids({
+				slots: [{
+					slotID: 'gpt-oop',
+					sizes: [ 
+							
+					 ]
+				}]
+			}, function( bids ) {
+				/* trigger the first request to DFP */
+				googletag.cmd.push( function() {
+		
+				var gpt_oop = googletag.
+
+								 defineOutOfPageSlot
+							("/3081/ws_bus.com/business/local-business/story"
+						 , 'gpt-oop');
+			gpt_oop			.addService( googletag.pubads() )
+			
+
+						 ;
+							apstag.setDisplayBids();
+				pnJustInTime.route(
+		{
+						ad_id: '"#gpt-oop"',
+						pixels_away:100,
+						pixels_away_count:1,
+						mode:'down',
+						lazy_loading_enabled:'"on"',
+						refresh_enabled:'"on"',
+						refresh_count:5,
+						refresh_time:30,
+						block_these_ads:'"#gpt-grannybar,#gpt-skinnybar,#gpt-wallpaper, #gpt-oop, #gpt-impulse, #gpt-impulse-mobile, #gpt-bigboxtop, #gpt-leaderboard"',
+						admode:'""',
+						ad_data:'null',
+						adslot: gpt_oop,
+						ias_targeting: ["on",928934,"2000","\/3081\/ws_bus.com\/business\/local-business\/story"],
+				}					);
+				 });
+			});
+		 });
+					</script>
+					</div>
+							<!-- Out of Page ends -->
+			</div>
+				
+	<nav class="accessibility-nav">
+		<ol>
+			<li><a href="#side-navigation">Skip to navigation</a></li>
+			<li><a href="#main">Skip to content</a></li>
+		</ol>
+	</nav>
+	<!-- / accessibility-nav -->
+
+			<div class="wallpaper-container" style="position:absolute">
+							<div id="gpt-wallpaper" class="pn_dfpads adslot">
+							<script type="text/javascript">
+
+					jQuery( document ).ready( function() {
+			apstag.fetchBids({
+				slots: [{
+					slotID: 'gpt-wallpaper',
+					sizes: [ 
+							[ 4,4 ]
+					 ]
+				}]
+			}, function( bids ) {
+				/* trigger the first request to DFP */
+				googletag.cmd.push( function() {
+		
+				var gpt_wallpaper = googletag.
+
+								 defineSlot
+							("/3081/ws_bus.com/business/local-business/story"
+							,
+				[[4,4]]			 , 'gpt-wallpaper');
+							 adSlots.push( gpt_wallpaper );
+				gpt_wallpaper			.addService( googletag.pubads() )
+			
+					 .setTargeting(
+						'loc'
+						, "top"					 )
+
+					
+
+						 ;
+							apstag.setDisplayBids();
+				pnJustInTime.route(
+		{
+						ad_id: '"#gpt-wallpaper"',
+						pixels_away:100,
+						pixels_away_count:1,
+						mode:'down',
+						lazy_loading_enabled:'"on"',
+						refresh_enabled:'"on"',
+						refresh_count:5,
+						refresh_time:30,
+						block_these_ads:'"#gpt-grannybar,#gpt-skinnybar,#gpt-wallpaper, #gpt-oop, #gpt-impulse, #gpt-impulse-mobile, #gpt-bigboxtop, #gpt-leaderboard"',
+						admode:'""',
+						ad_data:'null',
+						adslot: gpt_wallpaper,
+						ias_targeting: ["on",928934,"2000","\/3081\/ws_bus.com\/business\/local-business\/story"],
+				}					);
+				 });
+			});
+		 });
+					</script>
+					</div>
+						</div>
+				
+
+<div id="page" class="hfeed site" >
+
+	<!-- OLD ALERTS SHOWED HERE -->
+	<header class="l-header 
+	 ">
+	<div class="l-constrained">
+		<div 
+					 id="business"  class="header-nav
+				 ">
+			<div class="masthead">
+				<div class="header-logo track_event" data-event-tracking="Logo" itemscope itemtype="https://schema.org/Organization">
+					<a itemprop="url" href="https://windsorstar.com">
+												<div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+							<img src="https://postmediawindsorstar2.files.wordpress.com/2015/11/ws_300x300_rgb.png?resize=120,120" alt="
+													Windsor Star							Homepage" />
+							<meta itemprop="url" content="https://postmediawindsorstar2.files.wordpress.com/2015/11/ws_300x300_rgb.png">
+							<meta itemprop="width" content="120">
+							<meta itemprop="height" content="120">
+						</div>
+					</a>
+					<meta itemprop="name" content="Windsor Star">
+											<link itemprop="sameAs" href="https://www.facebook.com/windsorstar">
+																<link itemprop="sameAs" href="https://twitter.com/thewindsorstar">
+																<link itemprop="sameAs" href="https://plus.google.com/+windsorstar">
+																<link itemprop="sameAs" href="https://www.youtube.com/user/TheWindsorStar">
+																<link itemprop="sameAs" href="https://play.google.com/store/apps/details?id=com.indusblue.windsorstar&#038;hl=en">
+																<link itemprop="sameAs" href="https://itunes.apple.com/ca/app/the-windsor-star/id406388735?mt=8">
+																<link itemprop="sameAs" href="https://www.instagram.com/windsorstar/">
+																<link itemprop="sameAs" href="https://www.pinterest.com/thewindsorstar/">
+																<link itemprop="sameAs" href="https://en.wikipedia.org/wiki/Windsor_Star">
+									</div>
+							</div>
+			<div class="nav-wrap track_event" data-event-tracking="Main">
+				
+				<div class="left-drop-shadow"></div>
+				<nav id="primary-nav" class="navigation"><ul id="menu-main-menu" class="main-nav"><li id="menu-item-521722" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-521722 news"><a href="https://windsorstar.com/category/news">News</a>
+<div class="subnav">
+<ul>	<li id="menu-item-521738" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521738 news"><a href="https://windsorstar.com/category/news">All News</a>	<li id="menu-item-521723" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521723 local-news"><a href="https://windsorstar.com/category/news/local-news">Local News</a>	<li id="menu-item-521724" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521724 national"><a href="https://windsorstar.com/category/news/national">National</a>	<li id="menu-item-521725" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521725 world"><a href="https://windsorstar.com/category/news/world">World</a>	<li id="menu-item-542039" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-542039"><a href="https://windsorstar.com/traffic">Traffic</a>	</ul>
+</div>
+<li id="menu-item-521772" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-521772 business"><a href="https://windsorstar.com/category/business">Business</a>
+<div class="subnav">
+<ul>	<li id="menu-item-521775" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521775 business"><a href="https://windsorstar.com/category/business">All Business</a>	<li id="menu-item-521774" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521774 local-business"><a href="https://windsorstar.com/category/business/local-business">Local Business</a>	<li id="menu-item-521773" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521773 energy"><a href="https://windsorstar.com/category/business/energy">Energy</a>	<li id="menu-item-521781" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-521781 technology"><a href="https://windsorstar.com/category/technology">Technology</a>
+	<div class="subnav">
+<ul>		<li id="menu-item-521782" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521782 technology"><a href="https://windsorstar.com/category/technology">All Technology</a>		<li id="menu-item-521779" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521779 gaming"><a href="https://windsorstar.com/category/technology/gaming">Gaming</a>		<li id="menu-item-521780" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521780 internet"><a href="https://windsorstar.com/category/technology/internet">Internet</a>		<li id="menu-item-521783" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521783 personal-tech"><a href="https://windsorstar.com/category/technology/personal-tech">Personal Tech</a>		<li id="menu-item-521784" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521784 science"><a href="https://windsorstar.com/category/technology/science">Science</a>		<li id="menu-item-521785" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521785 space"><a href="https://windsorstar.com/category/technology/space">Space</a>		<li id="menu-item-521786" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521786 tech-biz"><a href="https://windsorstar.com/category/technology/tech-biz">Tech-Biz</a>		</ul>
+	</div>
+	<li id="menu-item-521776" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521776"><a href="https://business.financialpost.com/markets">FP Markets</a>	<li id="menu-item-521777" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521777"><a href="https://business.financialpost.com/category/news/">FP Headlines</a>	<li id="menu-item-521778" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521778"><a href="https://business.financialpost.com/category/personal-finance/">FP Money</a>	<li id="menu-item-939408" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-939408"><a href="/category/business/small-business">Small Business</a>	</ul>
+</div>
+<li id="menu-item-521726" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-521726 opinion"><a href="https://windsorstar.com/category/opinion">Opinion</a>
+<div class="subnav">
+<ul>	<li id="menu-item-521739" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521739 opinion"><a href="https://windsorstar.com/category/opinion">All Opinion</a>	<li id="menu-item-521729" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521729 editorials"><a href="https://windsorstar.com/category/opinion/editorials">Editorials</a>	<li id="menu-item-521728" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521728 columnists"><a href="https://windsorstar.com/category/opinion/columnists">Columnists</a>	<li id="menu-item-521727" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521727 letters"><a href="https://windsorstar.com/category/opinion/letters">Letters</a>	</ul>
+</div>
+<li id="menu-item-521740" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-has-children menu-item-521740 sports"><a href="https://windsorstar.com/category/sports">Sports</a>
+<div class="subnav">
+<ul>	<li id="menu-item-521742" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521742 sports"><a href="https://windsorstar.com/category/sports">All Sports</a>	<li id="menu-item-521741" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-521741 hockey"><a href="https://windsorstar.com/category/sports/hockey">Hockey</a>
+	<div class="subnav">
+<ul>		<li id="menu-item-521743" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521743 hockey"><a href="https://windsorstar.com/category/sports/hockey">All Hockey</a>		<li id="menu-item-521760" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521760 nhl"><a href="https://windsorstar.com/category/sports/hockey/nhl">NHL</a>		<li id="menu-item-522133" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-522133 detroit-red-wings"><a href="https://windsorstar.com/category/sports/hockey/nhl/detroit-red-wings">Detroit Red Wings</a>		<li id="menu-item-522134" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-522134 toronto-maple-leafs"><a href="https://windsorstar.com/category/sports/hockey/nhl/toronto-maple-leafs">Toronto Maple Leafs</a>		</ul>
+	</div>
+	<li id="menu-item-521748" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-521748 football"><a href="https://windsorstar.com/category/sports/football">Football</a>
+	<div class="subnav">
+<ul>		<li id="menu-item-521769" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521769 football"><a href="https://windsorstar.com/category/sports/football">All Football</a>		<li id="menu-item-521752" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521752 nfl"><a href="https://windsorstar.com/category/sports/football/nfl">NFL</a>		<li id="menu-item-521753" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521753 detroit-lions"><a href="https://windsorstar.com/category/sports/football/nfl/detroit-lions">Detroit Lions</a>		<li id="menu-item-521751" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521751 cfl"><a href="https://windsorstar.com/category/sports/football/cfl">CFL</a>		</ul>
+	</div>
+	<li id="menu-item-521745" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-has-children menu-item-521745 baseball"><a href="https://windsorstar.com/category/sports/baseball">Baseball</a>
+	<div class="subnav">
+<ul>		<li id="menu-item-521766" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521766 baseball"><a href="https://windsorstar.com/category/sports/baseball">All Baseball</a>		<li id="menu-item-521755" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521755 detroit-tigers"><a href="https://windsorstar.com/category/sports/baseball/detroit-tigers">Detroit Tigers</a>		</ul>
+	</div>
+	<li id="menu-item-521746" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-521746 basketball"><a href="https://windsorstar.com/category/sports/basketball">Basketball</a>
+	<div class="subnav">
+<ul>		<li id="menu-item-521767" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521767 basketball"><a href="https://windsorstar.com/category/sports/basketball">All Basketball</a>		<li id="menu-item-521758" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521758 nba"><a href="https://windsorstar.com/category/sports/basketball/nba">NBA</a>		<li id="menu-item-521759" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521759 ncaa"><a href="https://windsorstar.com/category/sports/basketball/ncaa">NCAA</a>		<li id="menu-item-521764" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521764 windsor-express"><a href="https://windsorstar.com/category/sports/basketball/windsor-express">Windsor Express</a>		</ul>
+	</div>
+	<li id="menu-item-521749" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-521749 golf"><a href="https://windsorstar.com/category/sports/golf">Golf</a>
+	<div class="subnav">
+<ul>		<li id="menu-item-972941" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-972941"><a href="http://windsorstar.sportstonews.com/">Golf Videos</a>		</ul>
+	</div>
+	<li id="menu-item-521761" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-has-children menu-item-521761 soccer"><a href="https://windsorstar.com/category/sports/soccer">Soccer</a>
+	<div class="subnav">
+<ul>		<li id="menu-item-521765" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521765 soccer"><a href="https://windsorstar.com/category/sports/soccer">All Soccer</a>		<li id="menu-item-522079" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-522079 international-soccer"><a href="https://windsorstar.com/category/sports/soccer/international-soccer">International Soccer</a>		<li id="menu-item-521757" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521757 mls"><a href="https://windsorstar.com/category/sports/soccer/mls">MLS</a>		</ul>
+	</div>
+	<li id="menu-item-521747" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521747 curling"><a href="https://windsorstar.com/category/sports/curling">Curling</a>	<li id="menu-item-521762" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521762 tennis"><a href="https://windsorstar.com/category/sports/tennis">Tennis</a>	<li id="menu-item-521744" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521744 auto-racing"><a href="https://windsorstar.com/category/sports/auto-racing">Auto Racing</a>	</ul>
+</div>
+<li id="menu-item-521788" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-521788 entertainment"><a href="https://windsorstar.com/category/entertainment">Arts</a>
+<div class="subnav">
+<ul>	<li id="menu-item-521789" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521789 entertainment"><a href="https://windsorstar.com/category/entertainment">All Arts</a>	<li id="menu-item-521792" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521792 local-arts"><a href="https://windsorstar.com/category/entertainment/local-arts">Local Arts</a>	<li id="menu-item-521793" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-521793 movies"><a href="https://windsorstar.com/category/entertainment/movies">Movies</a>
+	<div class="subnav">
+<ul>		<li id="menu-item-521795" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521795 movies"><a href="https://windsorstar.com/category/entertainment/movies">All Movies</a>		<li id="menu-item-521797" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521797"><a href="http://movies.windsorstar.com">Movie Listings</a>		</ul>
+	</div>
+	<li id="menu-item-521787" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-521787 television"><a href="https://windsorstar.com/category/entertainment/television">Television</a>
+	<div class="subnav">
+<ul>		<li id="menu-item-521796" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521796 television"><a href="https://windsorstar.com/category/entertainment/television">All Television</a>		<li id="menu-item-521798" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521798"><a href="http://www.windsorstar.com/entertainment/television/tv-listings/index.html">TV Listings</a>		</ul>
+	</div>
+	<li id="menu-item-521794" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-has-children menu-item-521794 music"><a href="https://windsorstar.com/category/entertainment/music">Music</a>
+	<div class="subnav">
+<ul>		<li id="menu-item-794654" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-794654 music"><a href="https://windsorstar.com/category/entertainment/music">All Music</a>		<li id="menu-item-794651" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-794651"><a target="_blank" href="https://youtube.com/nationalpostmusic">NP Music</a>		</ul>
+	</div>
+	<li id="menu-item-521790" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521790 books"><a href="https://windsorstar.com/category/entertainment/books">Books</a>	<li id="menu-item-521791" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521791 celebrity"><a href="https://windsorstar.com/category/entertainment/celebrity">Celebrity</a>	</ul>
+</div>
+<li id="menu-item-521803" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-521803 life"><a href="https://windsorstar.com/category/life">Life</a>
+<div class="subnav">
+<ul>	<li id="menu-item-651838" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-651838"><a href="/tag/milestones">Milestones</a>	<li id="menu-item-521815" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521815 life"><a href="https://windsorstar.com/category/life">All Life</a>	<li id="menu-item-521804" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521804 fashion-beauty"><a href="https://windsorstar.com/category/life/fashion-beauty">Fashion &amp; Beauty</a>	<li id="menu-item-521817" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-521817 homes"><a href="https://windsorstar.com/category/life/homes">Homes</a>
+	<div class="subnav">
+<ul>		<li id="menu-item-521808" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521808 homes"><a href="https://windsorstar.com/category/life/homes">All Homes</a>		<li id="menu-item-521810" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521810 condos"><a href="https://windsorstar.com/category/life/homes/condos">Condos</a>		<li id="menu-item-521811" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521811 decorating"><a href="https://windsorstar.com/category/life/homes/decorating">Decorating</a>		<li id="menu-item-521812" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521812 gardening"><a href="https://windsorstar.com/category/life/homes/gardening">Gardening</a>		<li id="menu-item-521821" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521821 renovating"><a href="https://windsorstar.com/category/life/homes/renovating">Renovating</a>		<li id="menu-item-521822" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521822 vacation-homes"><a href="https://windsorstar.com/category/life/homes/vacation-homes">Vacation Homes</a>		</ul>
+	</div>
+	<li id="menu-item-521805" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-521805 food"><a href="https://windsorstar.com/category/life/food">Food</a>
+	<div class="subnav">
+<ul>		<li id="menu-item-521816" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521816 food"><a href="https://windsorstar.com/category/life/food">All Food</a>		<li id="menu-item-521806" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521806 local-food-reviews"><a href="https://windsorstar.com/category/life/food/local-food-reviews">Local Food Reviews</a>		<li id="menu-item-542072" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-542072 recipes"><a href="https://windsorstar.com/category/life/food/recipes">Recipes</a>		</ul>
+	</div>
+	<li id="menu-item-521807" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521807 from-the-vault"><a href="https://windsorstar.com/category/life/from-the-vault">From the Vault</a>	<li id="menu-item-521814" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-has-children menu-item-521814 health"><a href="https://windsorstar.com/category/health">Health</a>
+	<div class="subnav">
+<ul>		<li id="menu-item-521799" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521799 health"><a href="https://windsorstar.com/category/health">All Health</a>		<li id="menu-item-521800" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521800 diet-fitness"><a href="https://windsorstar.com/category/health/diet-fitness">Diet &amp; Fitness</a>		<li id="menu-item-521801" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521801 family-child"><a href="https://windsorstar.com/category/health/family-child">Family &amp; Child</a>		<li id="menu-item-521802" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521802 men"><a href="https://windsorstar.com/category/health/men">Men</a>		<li id="menu-item-521825" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521825 women"><a href="https://windsorstar.com/category/health/women">Women</a>		<li id="menu-item-521823" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521823 seniors"><a href="https://windsorstar.com/category/health/seniors">Seniors</a>		<li id="menu-item-521824" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521824 sexual-health"><a href="https://windsorstar.com/category/health/sexual-health">Sexual Health</a>		</ul>
+	</div>
+	<li id="menu-item-851883" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-851883 life-by-design"><a href="https://windsorstar.com/category/life/life-by-design">Life By Design</a>	<li id="menu-item-521813" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521813 parenting"><a href="https://windsorstar.com/category/life/parenting">Parenting</a>	<li id="menu-item-521819" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521819 relationships"><a href="https://windsorstar.com/category/life/relationships">Relationships</a>	<li id="menu-item-521820" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521820 royals"><a href="https://windsorstar.com/category/life/royals">Royals</a>	<li id="menu-item-543172" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-543172 travel"><a href="https://windsorstar.com/category/travel">Travel</a>	</ul>
+</div>
+<li id="menu-item-521826" class="jobs menu-item menu-item-type-custom menu-item-object-custom menu-item-521826"><a href="http://working.com/windsor">Careers</a><li id="menu-item-521827" class="obits menu-item menu-item-type-custom menu-item-object-custom menu-item-521827"><a href="http://windsorstar.remembering.ca">Obits</a><li id="menu-item-521828" class="obits menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-521828"><a href="http://classifieds.windsorstar.com/">Classifieds</a>
+<div class="subnav">
+<ul>	<li id="menu-item-521829" class="obits menu-item menu-item-type-custom menu-item-object-custom menu-item-521829"><a href="http://classifieds.windsorstar.com/">All Classifieds</a>	<li id="menu-item-521830" class="obits menu-item menu-item-type-custom menu-item-object-custom menu-item-521830"><a href="/flyercity">Flyercity</a>	<li id="menu-item-521833" class="obits menu-item menu-item-type-custom menu-item-object-custom menu-item-521833"><a href="http://www.legacy.com/celebration/windsorstar/">Announcements</a>	<li id="menu-item-521834" class="obits menu-item menu-item-type-custom menu-item-object-custom menu-item-521834"><a href="http://classifieds.windsorstar.com/">Browse Listings</a>	<li id="menu-item-542087" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-542087"><a href="http://windsorstar.adperfect.com/">Place a Classifieds Ad</a>	<li id="menu-item-930611" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-930611"><a href="http://local.windsorstar.com">Local Directory</a>	</ul>
+</div>
+<li id="menu-item-521838" class="driving menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-521838"><a href="https://driving.ca/">Driving</a>
+<div class="subnav">
+<ul>	<li id="menu-item-542089" class="driving menu-item menu-item-type-custom menu-item-object-custom menu-item-542089"><a href="https://driving.ca/">All Driving</a>	<li id="menu-item-542090" class="Driving menu-item menu-item-type-custom menu-item-object-custom menu-item-542090"><a href="https://driving.ca/category/auto-news">News</a>	<li id="menu-item-542091" class="driving menu-item menu-item-type-custom menu-item-object-custom menu-item-542091"><a href="https://driving.ca/category/reviews">Reviews</a>	<li id="menu-item-607148" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-607148"><a href="https://driving.ca/car-comparison">Car Comparison</a>	<li id="menu-item-607149" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-607149"><a href="https://driving.ca/buyers-guide/2015">Buyer’s Guide</a>	</ul>
+</div>
+<li id="menu-item-542092" class="subscribe_mobile menu-item menu-item-type-post_type menu-item-object-page menu-item-542092"><a href="https://windsorstar.com/subscription">Subscription</a></ul></nav>				<div class="subnav-btn-container subnav-prev-btn-container"></div>
+				<div class="subnav-btn-container subnav-next-btn-container"></div>
+				<div class="right-drop-shadow"></div>
+			</div>
+			<!-- /nav-wrap -->
+
+							<div class="lower-header">
+					<div class="breadcrumb-wrap menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children business sub">
+	
+		<ul class="breadcrumb-list" itemscope itemtype="https://schema.org/BreadcrumbList">
+				<li  itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children business sub track_event" data-event-tracking="Parent Breadcrumbs">
+				<a href="https://windsorstar.com/category/business" itemprop="item"><span itemprop="name">Business</span><meta itemprop="position" content="1" /></a>
+			</li>
+						<li  itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="menu-item menu-item-type-taxonomy menu-item-object-category local-business sub track_event" data-event-tracking="Parent Breadcrumbs">
+				<a href="https://windsorstar.com/category/business/local-business" itemprop="item"><span itemprop="name">Local Business</span><meta itemprop="position" content="2" /></a>
+			</li>
+				</ul>
+
+	<div class="more-category-and-feature">
+
+			<ul class="circular-list">
+
+				
+				<li class="featured-title"><div class="feature-title"><span class="separator">|</span>Featured:</div></li>
+					<li class="track_event" data-event-tracking="Featured Item">
+			<a
+						 href="https://windsorstar.com/tag/fiat-chrysler" 
+					>Fiat-Chrysler</a>
+		</li>
+			<li class="track_event" data-event-tracking="Featured Item">
+			<a
+						 href="https://windsorstar.com/author/winstarmacaluso" 
+					>Grace Macaluso</a>
+		</li>
+			<li class="track_event" data-event-tracking="Featured Item">
+			<a
+						 href="http://driving.ca/" 
+					>Driving</a>
+		</li>
+					<li><span class="separator last_separator">|</span></li>
+	</ul>
+	</div>
+	<div class="right-drop-shadow"></div>
+	<a href="javascript:void(0);" class="more-items">More</a>
+</div>
+					<ul class="header-actions">
+						<li class="search">
+							<form class="form-search" action="https://windsorstar.com/" method="get">
+	<fieldset>
+		<label class="form-search-label" for="main-mobile-searcher">Open Search</label>
+		<input class="form-search-input" type="text" name="s" id="main-mobile-searcher" placeholder="Find something right now" title="Find something right now"/>
+		<button class="close close-search" alt="Close Search" title="Close Search" type="button">Close Search</button>
+		<button class="start-search" alt="Search" title="Search" type="submit">Search</button>
+	</fieldset>
+</form>
+						</li>
+					</ul>
+				</div>
+				<!-- /lower-header -->
+
+				<div class="header-links track_event" data-event-tracking="Header Subscription">
+					<a class="videos-btn" href="/watch">Videos</a>
+								<a class="signin-btn loading" id="captureSignInLink" onclick="pn_janrain_render_screen('signIn');" href="javascript:void(0);">Sign In</a>
+				<a class="sign-out" id="captureSignOutLink" style="display:none" href="javascript:void(0);">Sign Out</a>
+				<style>#janrainModal .logo_image { background-image: url( https://postmediawindsorstar2.files.wordpress.com/2018/09/windsor_star_logo-500x100.png ); }</style>
+													<a class="subscribe-btn" href="https://windsorstar.com/subscription">Subscribe</a>
+														</div>
+				<!-- / header-links -->
+				<a href="https://www.postmedia.com/" class="postmedia-logo track_event" data-event-tracking="Postmedia Logo" target="_blank"><span></span></a>
+				<!-- / postmedia brands -->
+				
+			
+		</div> <!-- /header-nav -->
+	</div><!-- /l-constrained-->
+</header>
+<!-- / header -->
+
+	<div class="l-constrained alerts"></div>
+	<div id="content" class="site-content">
+<div class="l-content">
+	<div class="l-constrained container contentbody">
+		<section class="l-top-content">
+			<div class="adunit">
+				<div class="widget-advertisement advertisement pnLeaderboard">
+		<div id="pnLeaderBoardStickyBG">
+			<div>
+				<div id="gpt-billboard"></div>
+				<div id="pn-leaderboard-ad-large">
+								<div id="gpt-leaderboard" class="pn_dfpads adslot">
+							<script type="text/javascript">
+
+					jQuery( document ).ready( function() {
+			apstag.fetchBids({
+				slots: [{
+					slotID: 'gpt-leaderboard',
+					sizes: [ 
+							[ 728,90 ], [ 970,90 ], [ 970,250 ], [ 1200,90 ], [ 1200,250 ]
+					 ]
+				}]
+			}, function( bids ) {
+				/* trigger the first request to DFP */
+				googletag.cmd.push( function() {
+		
+				var gpt_leaderboard = googletag.
+
+								 defineSlot
+							("/3081/ws_bus.com/business/local-business/story"
+							,
+				[[728,90],[970,90],[970,250],[1200,90],[1200,250]]			 , 'gpt-leaderboard');
+							 adSlots.push( gpt_leaderboard );
+				gpt_leaderboard			.addService( googletag.pubads() )
+			
+					 .setTargeting(
+						'loc'
+						, "top"					 )
+
+					
+
+						 ;
+							apstag.setDisplayBids();
+				pnJustInTime.route(
+		{
+						ad_id: '"#gpt-leaderboard"',
+						pixels_away:100,
+						pixels_away_count:1,
+						mode:'down',
+						lazy_loading_enabled:'"on"',
+						refresh_enabled:'"on"',
+						refresh_count:5,
+						refresh_time:30,
+						block_these_ads:'"#gpt-grannybar,#gpt-skinnybar,#gpt-wallpaper, #gpt-oop, #gpt-impulse, #gpt-impulse-mobile, #gpt-bigboxtop, #gpt-leaderboard"',
+						admode:'""',
+						ad_data:'null',
+						adslot: gpt_leaderboard,
+						ias_targeting: ["on",928934,"2000","\/3081\/ws_bus.com\/business\/local-business\/story"],
+				}					);
+				 });
+			});
+		 });
+					</script>
+					</div>
+								</div>
+			</div>
+		</div>
+	</div>
+			</div>
+					</section>
+
+		<div class="l-main" id="main">
+					<span itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization" />
+			<span itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject" />
+				<meta itemprop="url" content="https://postmediawindsorstar2.files.wordpress.com/2015/11/ws_300x300_rgb.png" />
+				<meta itemprop="width" content="120" />
+				<meta itemprop="height" content="120" />
+			</span>
+			<meta itemprop="name" content="Windsor Star" />
+		</span>
+		<article id="post-2bf93df0-a60e-4aea-8689-522498e5ba17" class="l-article post-2bf93df0-a60e-4aea-8689-522498e5ba17 post type-post status-publish format-standard has-post-thumbnail hentry category-business-wire category-cannabis-business category-local-business category-local-news category-tech-biz">
+	<header class="entry-header">
+				<h1 itemprop="headline" class="entry-title">The year Ottawa tech became a cash magnet</h1>
+		<div class="entry-content">
+			<p>
+						</p>
+		</div>
+		<div class="entry-details byline">
+			<div class="author-wrap">
+			<span class="name">James Bagnall</span>			</div>
+			<div class="byline-dates">
+				Updated: October 29, 2018			</div>
+		</div>
+	</header><!-- .entry-header -->
+
+	<div class="entry-content p402_premium">
+				<figure class="align-none wp-caption post-img" id="post-807203media-807203" itemprop="image" itemscope itemid="https://postmediaottawacitizen2.files.wordpress.com/2016/05/assent-compliance1.jpeg?w=840&#038;h=630&#038;crop=1&#038;quality=80&#038;strip=all" itemtype="https://schema.org/ImageObject">
+			<img class="wp-post-image" alt="" src="https://postmediaottawacitizen2.files.wordpress.com/2016/05/assent-compliance1.jpeg?w=840&amp;h=630&amp;crop=1&amp;quality=80&amp;strip=all" width="840" height="630" />
+			<meta itemprop="url" content="https://postmediaottawacitizen2.files.wordpress.com/2016/05/assent-compliance1.jpeg?w=840&#038;h=630&#038;crop=1&#038;quality=80&#038;strip=all">
+			<meta itemprop="width" content="840">
+			<meta itemprop="height" content="630">
+							<figcaption class="wp-caption-text" itemprop="description">
+					<p><span class="img-caption">
+						Assent Compliance Chief Product Officer Martin Sendyk, CEO Andrew Waitman and CFO Russell Frederick at their office in Ottawa. The software firm unveiled $40 million in venture financing July 14, 2017.						</span>
+						<span class="img-author">
+							<span itemprop="creator">Tony Caldwell</span> / <span itemprop="copyrightHolder">Postmedia Network</span>						</span>
+					</p>
+				</figcaption>
+						</figure>
+				<div class="article-actions">
+			<a href="#" class="icon-share" data-modal-target="#modal-share">Share</a>
+			<a href="#" class="icon-adjust">Adjust</a>
+			<a href="#" class="icon-comment">Comment</a>
+			<a href="javascript:window.print();" class="icon-print">Print</a>
+		</div>
+		<div itemprop="articleBody">
+			<p>Ordinarily, this would be a very big deal.&nbsp; The day after Ottawa&rsquo;s civic elections, software company Assent Compliance revealed it had raised $130 million from investors to finance future growth &mdash; one of this year&rsquo;s biggest equity investments for a Canadian startup.</p><p>This was the third round of funding in just the past three years for the company, reflecting chief executive Andrew Waitman&rsquo;s drive to create a global specialist in the arcane art of data management software for supply chains. Assent Compliance, this most Ottawa of firms, helps large organizations make sure they are paying proper attention to government rules and regulations throughout their network of suppliers and sub-contractors.</p><p>When Waitman signed on as CEO in 2014, the startup had just 25 employees. Now there are more than 400 across Canada, the U.S. and the U.K.</p><p>Last week&rsquo;s equity investment in Assent Compliance, which comes courtesy of New York private equity giant Warburg Pincus, will allow Waitman to further bolster his increasingly wide range of software products.</p><p>Even so, the Warburg Pincus announcement was largely overshadowed by the cash-raising prowess of firms in other parts of the region&rsquo;s business sector.</p><p>Indeed, not since the tech boom of 2000 has so much investment money poured into the coffers of Ottawa-area firms.</p><p>The legalization of recreational marijuana on Oct. 17 has been a significant catalyst but by no means the only one.</p><p>Shareholders at Canopy Growth, the industry leader based out of Smiths Falls, recently approved a transaction that will see Constellation Brands &mdash; the U.S. beer, wine and spirits company &mdash; invest $5 billion in exchange for significant ownership.&nbsp; Crosstown cannabis products rival HEXO Corp. of Gatineau was also busy raising money this year. Its net cash position improved nearly $210 million during the nine months ended July 31 (latest available) &mdash; thanks largely to a sale of shares that grossed $149.5 million in January.</p><p>Cannabis firms weren&rsquo;t the only ones to persuade investors to part with their money.</p><p>Ottawa&rsquo;s burgeoning e-commerce software star, Shopify, saw its cash reserves top $2 billion (converted from $1.6 billion U.S.) as of Sept. 30, up $720 million since year-end 2017. This largely reflected Shopify&rsquo;s decision to sell millions of shares earlier this year to investors on the New York and TSX stock exchanges.</p><p>In August the company filed paperwork that will allow it to raise as much as $6.5 billion through further share sales on an expedited basis when Shopify judges the timing is right.</p><p>In this, Shopify appears to have drawn an important lesson from Nortel Networks, which failed during the tech boom to buttress its cash reserves. From a corporate point of view it&rsquo;s best to market your equity when you can, not when you have to.</p><p>This has also been an important year for Mitel Networks as far as corporate finance goes.&nbsp; The Kanata telecommunications technology pioneer revealed in April that it would be acquired in full by a New York investment firm, Searchlight Capital Partners.&nbsp; Assuming the deal clears all the regulatory hurdles as expected by year-end, Searchlight will take over all of Mitel&rsquo;s equity for $1.7 billion (in addition to assuming Mitel&rsquo;s considerable debt).</p><p>Even non-tech firms were tapping the stock market. Minto, one of Ottawa&rsquo;s most prominent real estate firms, raised $200 million through the sale of units in its Minto Apartment Real Estate Investment Trust. The company said it will use part of the proceeds to diversify its real estate offerings. Some of the money has also been earmarked for estate planning for the Greenberg family that controls Minto.</p><p>Considering that a significant portion of the money raised this year by Ottawa firms will disappear into the accounts of foreign and corporate investors, does it really matter to the lives of ordinary people? Well, yes, because much of the cash is cascading through the local economy in the form of construction, hiring and general spending by employees with shares in their companies.&nbsp; Canopy Growth alone has hired hundreds of people so far this year and is investing a fortune in Smiths Falls infrastructure.&nbsp; Canopy, HEXO, Assent Compliance and Shopify are filling office complexes with new employees.</p><p>Equally important is the added security that strong cash balances give corporations, especially in the high-risk technology sector. The higher this city&rsquo;s exposure to a handful of larger tech corporations, the greater the potential risks to its economy. Cash, especially in the amount coming into Ottawa, provides some at least some measure of comfort.</p><p>&nbsp;</p><p>&nbsp;</p>					
+								
+		</div>
+			
+		<div class="clearfix"></div>
+				<nav role="navigation" id="nav-below" class="pagination post-navigation">
+
+		
+			<nav class="pagination">
+					<a href="https://windsorstar.com/news/local-news/local-telecom-company-investing-millions-in-fibre-network" class="previous">
+		<span class="tablet-up pag-content">
+					<img src="https://postmediawindsorstar2.files.wordpress.com/2017/01/mnsi-fibre-optic1.jpeg?quality=80&#038;strip=all&#038;w=150" alt="" class="attachment-post-thumbnail wp-post-image" />
+				<span>
+						Local telecom company investing millions in fibre network</span>
+		</span>
+	</a>
+				</nav>
+
+		
+		</nav><!-- #nav-below -->
+				<footer class="entry-meta">
+					</footer><!-- .entry-meta -->
+	</div><!-- .entry-content -->
+</article><!-- #post-## -->
+					<div id="rcjsload_d5c52d"></div>
+					<script type="text/javascript">
+					(function() {
+						var referer="";try{if(referer=document.referrer,"undefined"==typeof referer||""==referer)throw"undefined"}catch(exception){referer=document.location.href,(""==referer||"undefined"==typeof referer)&&(referer=document.URL)}referer=referer.substr(0,700);
+						var rcds = document.getElementById("rcjsload_d5c52d");
+						var rcel = document.createElement("script");
+						rcel.id = 'rc_' + Math.floor(Math.random() * 1000);
+						rcel.type = 'text/javascript';
+						rcel.src = "https://trends.revcontent.com/serve.js.php?w=106805&t="+rcel.id+"&c="+(new Date()).getTime()+"&width="+(window.outerWidth || document.documentElement.clientWidth)+"&referer="+encodeURIComponent(referer);
+						rcel.async = true;
+						rcds.appendChild(rcel);
+					})();
+					</script>
+										<div class="section-header-wrap">
+						<h2 class="flyers-header"><span>This Week's Flyers</span></h2>
+					</div>
+					<div id="flyertown_module_14785"></div><style>.pm_layouts_news_ticker .flyer-ticker{min-height:334px;}.widget_postmediaflyercitywidget{min-height:430px;}@media only screen and (max-width:1024px){.pm_layouts_news_ticker .flyer-ticker{min-height:320px}}@media only screen and (max-width:768px){.pm_layouts_news_ticker .widget.flyer-ticker{min-height:272px}}</style><script defer src="https://api.flyertown.ca/14785/c7116ccc726dfadb/flyertown_module.js"></script>		<div id="comments" class="comments-area">
+			<h2 class="comments-title">Comments</h2>
+			We encourage all readers to share their views on our articles and blog posts. We are committed to maintaining a lively but civil forum for discussion, so we ask you to avoid personal attacks, and please keep your comments relevant and respectful. If you encounter a comment that is abusive, click the "X" in the upper right corner of the comment box to report spam or abuse. We are using Facebook commenting. <a href="facebook-commenting-faqs">Visit our FAQ page</a> for more information.
+			<div class="fb-comments" data-href="https://windsorstar.com/business/local-business/the-year-ottawa-tech-became-a-cash-magnet/wcm/2bf93df0-a60e-4aea-8689-522498e5ba17" data-num-posts="5"></div>
+		</div><!-- #comments -->
+				</div><!-- / main -->
+		<aside id="sidebar" class="l-sidebar">
+<div id="postmedia_layouts_ad-top" class="widget-wrap clearfix widget_postmedia_layouts_ad widget-sticky adsizewrapper " style="height:1200px;"><div class="widget">			<div id="gpt-bigboxtop" class="pn_dfpads adslot"> 							<script type="text/javascript">  					jQuery( document ).ready( function() { 			apstag.fetchBids({ 				slots: [{ 					slotID: 'gpt-bigboxtop', 					sizes: [  							[ 300,250 ], [ 300,251 ], [ 300,600 ], [ 300,601 ], [ 300,1050 ] 					 ] 				}] 			}, function( bids ) { 				/* trigger the first request to DFP */ 				googletag.cmd.push( function() { 		 				var gpt_bigboxtop = googletag.  								 defineSlot 							("/3081/ws_bus.com/business/local-business/story" 							, 				[[300,250],[300,251],[300,600],[300,601],[300,1050]]			 , 'gpt-bigboxtop'); 							 adSlots.push( gpt_bigboxtop ); 				gpt_bigboxtop			.addService( googletag.pubads() ) 			 					 .setTargeting( 						'loc' 						, "top"					 )  					  						 ; 							apstag.setDisplayBids(); 				pnJustInTime.route( 		{ 						ad_id: '"#gpt-bigboxtop"', 						pixels_away:100, 						pixels_away_count:1, 						mode:'down', 						lazy_loading_enabled:'"on"', 						refresh_enabled:'"on"', 						refresh_count:5, 						refresh_time:30, 						block_these_ads:'"#gpt-grannybar,#gpt-skinnybar,#gpt-wallpaper, #gpt-oop, #gpt-impulse, #gpt-impulse-mobile, #gpt-bigboxtop, #gpt-leaderboard"', 						admode:'"resize"', 						ad_data:'null', 						adslot: gpt_bigboxtop, 						ias_targeting: ["on",928934,"2000","\/3081\/ws_bus.com\/business\/local-business\/story"], 				}					); 				 }); 			}); 		 }); 					</script> 					</div> 				</div></div><div id="pn_socialmedia_widget-21" class="track_event--1 widget pn_socialmedia_widget">		<h2 class="cat-head"><span>Connect With Us</span></h2>
+		<div id="social_media_widget" class="widget">
+		<ul>
+				<li class="fb"><a href="https://www.facebook.com/windsorstar" target="_blank"></a></li>
+				<li class="twitter"><a href="https://twitter.com/thewindsorstar" target="_blank"></a></li>
+				<li class="rss"><a href="/feed" target="_blank"></a></li>
+				</ul>
+		</div>
+		</div><div id="postmedia_polarmediavoice-2" class="track_event--1 widget postmedia_polarmediavoice">		<div class="rightrail_native_ad">
+			<div class="nativead">
+				<div class="adcontent">
+				</div>
+			</div>
+		</div>
+
+		</div><div id="pmlay_lists_widget-36" class="track_event--1 widget widget_pmlay_lists_widget">	<section class="widget_1 widget-outfit widget-outfit-thumb-cat-title-list widget">
+
+				<header id="section-header" class="section-header ">
+			 <div id="section-label" class="section-label  clearfix">
+									<div class="local-branding"><span class="sponsorship-img"><a href="https://windsorstar.com/category/business/business-wire" target="_blank" title="Business Wire"><img src="https://postmediawindsorstar2.files.wordpress.com/2016/08/bwlogo.png" alt="Business Wire" ></a></span><h2 class="cat-head sponsored"><a href="https://windsorstar.com/category/business/business-wire" target="_self"><span>News Releases</span></a></h2><div class="sponsor_name_wrapper empty_info_box"><span class="label sponsor"><span class="sponsored_by_label empty_info_box">Promoted by</span></span><span class="sponsor_name"><strong><a href="https://windsorstar.com/category/business/business-wire" target="_blank" title="Business Wire">Business Wire</a></strong></span></div></div>							  <div id="section-body"></div>
+			 </div>
+			</header>
+			
+		<ul class="posts-list hfeed 
+				">
+				<li class="
+						">
+		<article class="post post-excerpt hentry track_event" data-event-tracking="Sidebar Outfit| -1| Thumb+Cat+Title| 0| 1| shar| &quot; "  >
+			
+<figure class="thumbnail ">
+			<a id="link-1775246" href="https://windsorstar.com/pmn/press-releases-pmn/business-wire-news-releases-pmn/softomotive-announces-guy-berruyer-former-ceo-of-sage-group-as-chairman/wcm/b4f28c89-0d81-49d2-a3fc-1270ee41293f" target="">
+				<img itemprop="image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAADCAQAAAAe/WZNAAAADklEQVR42mNkgAJGDAYAAFEABCaLYqoAAAAASUVORK5CYII=" 
+			data-src="https://financialpostcom.files.wordpress.com/2019/04/185455010.jpeg?w=107&amp;h=80&amp;crop=1&amp;quality=80&amp;strip=all"
+							pm-lazy-src="https://financialpostcom.files.wordpress.com/2019/04/185455010.jpeg?w=107&#038;h=80&#038;crop=1&#038;quality=80&#038;strip=all"
+						class="attachment-post-thumbnail wp-post-image hide-on-video-play" 
+			alt="" 
+			width="107" 
+			height="80" 
+			id="img-1775246"/>
+					</a>
+			</figure>
+			  <header>
+			<h4 class="entry-title"><a href="https://windsorstar.com/pmn/press-releases-pmn/business-wire-news-releases-pmn/softomotive-announces-guy-berruyer-former-ceo-of-sage-group-as-chairman/wcm/b4f28c89-0d81-49d2-a3fc-1270ee41293f" target="_self" rel="bookmark" title="">Softomotive announces Guy Berruyer, former CEO of Sage Group, as Chairman</a></h4>			  </header>
+
+				
+		  </article>
+					 </li>
+						<li class="
+						">
+		<article class="post post-excerpt hentry track_event" data-event-tracking="Sidebar Outfit| -1| Thumb+Cat+Title| 0| 2| shar| &quot; "  >
+			
+<figure class="thumbnail ">
+			<a id="link-1774875" href="https://windsorstar.com/pmn/press-releases-pmn/business-wire-news-releases-pmn/lego-education-spike-prime-a-new-hands-on-learning-approach-for-classrooms-announced-today/wcm/bad8f970-fe7b-487b-bd02-73b3acacd355" target="">
+				<img itemprop="image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAADCAQAAAAe/WZNAAAADklEQVR42mNkgAJGDAYAAFEABCaLYqoAAAAASUVORK5CYII=" 
+			data-src="https://financialpostcom.files.wordpress.com/2019/04/bw20190402005064_spike_lifestyle_photo.jpeg?w=107&amp;h=80&amp;crop=1&amp;quality=80&amp;strip=all"
+							pm-lazy-src="https://financialpostcom.files.wordpress.com/2019/04/bw20190402005064_spike_lifestyle_photo.jpeg?w=107&#038;h=80&#038;crop=1&#038;quality=80&#038;strip=all"
+						class="attachment-post-thumbnail wp-post-image hide-on-video-play" 
+			alt="" 
+			width="107" 
+			height="80" 
+			id="img-1774875"/>
+					</a>
+			</figure>
+			  <header>
+			<h4 class="entry-title"><a href="https://windsorstar.com/pmn/press-releases-pmn/business-wire-news-releases-pmn/lego-education-spike-prime-a-new-hands-on-learning-approach-for-classrooms-announced-today/wcm/bad8f970-fe7b-487b-bd02-73b3acacd355" target="_self" rel="bookmark" title="">LEGO® Education SPIKE™ Prime, a New Hands-On Learning Approach for Classrooms, Announced Today</a></h4>			  </header>
+
+				
+		  </article>
+					 </li>
+						<li class="
+						">
+		<article class="post post-excerpt hentry track_event" data-event-tracking="Sidebar Outfit| -1| Thumb+Cat+Title| 0| 3| shar| &quot; "  >
+			
+<figure class="thumbnail ">
+			<a id="link-1774805" href="https://windsorstar.com/pmn/press-releases-pmn/business-wire-news-releases-pmn/kingston-server-premier-ddr4-2933mt-s-registered-dimms-receive-validation-on-intel-purley-platform/wcm/fb796be7-d0e2-4542-aeca-350b55ffd666" target="">
+				<img itemprop="image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAADCAQAAAAe/WZNAAAADklEQVR42mNkgAJGDAYAAFEABCaLYqoAAAAASUVORK5CYII=" 
+			data-src="https://financialpostcom.files.wordpress.com/2019/04/bw20190402005051_server_premier.jpeg?w=107&amp;h=80&amp;crop=1&amp;quality=80&amp;strip=all"
+							pm-lazy-src="https://financialpostcom.files.wordpress.com/2019/04/bw20190402005051_server_premier.jpeg?w=107&#038;h=80&#038;crop=1&#038;quality=80&#038;strip=all"
+						class="attachment-post-thumbnail wp-post-image hide-on-video-play" 
+			alt="" 
+			width="107" 
+			height="80" 
+			id="img-1774805"/>
+					</a>
+			</figure>
+			  <header>
+			<h4 class="entry-title"><a href="https://windsorstar.com/pmn/press-releases-pmn/business-wire-news-releases-pmn/kingston-server-premier-ddr4-2933mt-s-registered-dimms-receive-validation-on-intel-purley-platform/wcm/fb796be7-d0e2-4542-aeca-350b55ffd666" target="_self" rel="bookmark" title="">Kingston Server Premier DDR4 2933MT/s Registered DIMMS Receive Validation on Intel Purley Platform</a></h4>			  </header>
+
+				
+		  </article>
+					 </li>
+						<li class="
+						">
+		<article class="post post-excerpt hentry track_event" data-event-tracking="Sidebar Outfit| -1| Thumb+Cat+Title| 0| 4| shar| &quot; "  >
+						  <header>
+			<h4 class="entry-title"><a href="https://windsorstar.com/pmn/press-releases-pmn/business-wire-news-releases-pmn/dionymed-brands-inc-signs-definitive-agreement-with-premium-manufacturer-and-indoor-craft-cultivator-waterside-warehousing/wcm/998664c6-46f0-4d41-92f5-ccb4cd34c9ad" target="_self" rel="bookmark" title="">DionyMed Brands Inc. Signs Definitive Agreement with Premium Manufacturer and Indoor Craft Cultivator Waterside Warehousing</a></h4>			  </header>
+
+				
+		  </article>
+					 </li>
+					</ul>
+	<span class="widget-footer"><a href="https://windsorstar.com/category/business/business-wire" target="_self">More News Releases</a></span>	</section>
+	</div><div id="postmedia_layouts_ad-bot" class="widget-wrap clearfix widget_postmedia_layouts_ad widget-sticky adsizewrapper " style="height:600px;"><div class="widget">			<div id="gpt-bigboxbot" class="pn_dfpads adslot"> 							<script type="text/javascript">  					jQuery( document ).ready( function() { 			apstag.fetchBids({ 				slots: [{ 					slotID: 'gpt-bigboxbot', 					sizes: [  							[ 300,250 ], [ 300,253 ] 					 ] 				}] 			}, function( bids ) { 				/* trigger the first request to DFP */ 				googletag.cmd.push( function() { 		 				var gpt_bigboxbot = googletag.  								 defineSlot 							("/3081/ws_bus.com/business/local-business/story" 							, 				[[300,250],[300,253]]			 , 'gpt-bigboxbot'); 							 adSlots.push( gpt_bigboxbot ); 				gpt_bigboxbot			.addService( googletag.pubads() ) 			 					 .setTargeting( 						'loc' 						, "bot"					 )  					  						 ; 							apstag.setDisplayBids(); 				pnJustInTime.route( 		{ 						ad_id: '"#gpt-bigboxbot"', 						pixels_away:100, 						pixels_away_count:1, 						mode:'down', 						lazy_loading_enabled:'"on"', 						refresh_enabled:'"on"', 						refresh_count:5, 						refresh_time:30, 						block_these_ads:'"#gpt-grannybar,#gpt-skinnybar,#gpt-wallpaper, #gpt-oop, #gpt-impulse, #gpt-impulse-mobile, #gpt-bigboxtop, #gpt-leaderboard"', 						admode:'"resize"', 						ad_data:'null', 						adslot: gpt_bigboxbot, 						ias_targeting: ["on",928934,"2000","\/3081\/ws_bus.com\/business\/local-business\/story"], 				}					); 				 }); 			}); 		 }); 					</script> 					</div> 				</div></div><div id="sailthru-subscribe-id-3" class="track_event--1 widget Sailthru_Subscribe">	<div class="sailthru-signup-widget">
+		<span class="sailthru-signup-widget-close"><a href="#sailthru-signup-widget">Close</a></span>
+		<div class="sailthru_form">
+
+			<h2 class="widget-title cat-head"><span>Daily Headline News</span></h2>
+			<div class="success" hidden="hidden">Thank you for subscribing to Postmedia&#039;s Newsletter.</div>
+
+			<form method="post" action="#" class="sailthru-add-subscriber-form" id="sailthru-subscribe-id-3">
+
+				<div class="sailthru-add-subscriber-errors"></div>
+
+				<div class="sailthru_form_input form-group">
+					<label class="sailthru-widget-label">Email</label>
+					<input type="text" name="email" value="" class="form-control sailthru_email" />
+				</div>
+
+				<div class="sailthru_form_input form-group"><label for="custom_micetype">By clicking &quot;Submit&quot;, I consent to receiving the above communication from Postmedia Network Inc. I understand that I may unsubscribe from these communications at any time.</label><input  type="text" name="custom_micetype" id="sailthru_micetype_id"  class="form-control"/></div>				<input type="hidden" name="sailthru_nonce" value="1a3394f0ee" />
+				<input type="hidden" name="sailthru_email_list" value="WS_HeadlineNews" />
+				<input type="hidden" name="action" value="add_subscriber" />
+				<input type="hidden" name="source" value="https://windsorstar.com" />
+				<input type="hidden" name="lo_event_name" value="" />
+
+				<span class="input-group-btn">
+					<button class="btn btn-reverse" type="submit">
+						Submit
+					</button>
+				</span>
+		</form>
+	</div>
+</div>
+</div></aside>
+
+<div id="modal-share" class="modal">
+	<button class="modal-close" type="button" title="Close (Esc)"></button>
+	<div class="modal-wrap">
+		<header class="modal-header">
+			<span class="share">Share this story</span>
+			<h2 class="modal-title">The year Ottawa tech became a cash magnet</h2>
+		</header>
+		<!-- / modal-header -->
+		<div class="modal-content">
+			<ul class="share-icons">
+				<li>
+					<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwindsorstar.com%2Fbusiness%2Flocal-business%2Fthe-year-ottawa-tech-became-a-cash-magnet%2Fwcm%2F2bf93df0-a60e-4aea-8689-522498e5ba17%2F&#038;t=The%20year%20Ottawa%20tech%20became%20a%20cash%20magnet" target="_blank" class="share-icon fb"><span>Facebook</span></a>
+				</li>
+				<li>
+					<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwindsorstar.com%2Fbusiness%2Flocal-business%2Fthe-year-ottawa-tech-became-a-cash-magnet%2Fwcm%2F2bf93df0-a60e-4aea-8689-522498e5ba17%2F&#038;text=The%20year%20Ottawa%20tech%20became%20a%20cash%20magnet" target="_blank" class="share-icon tw"><span>Twitter</span></a>
+				</li>
+				<li>
+					<a href="https://www.reddit.com/submit?url=https%3A%2F%2Fwindsorstar.com%2Fbusiness%2Flocal-business%2Fthe-year-ottawa-tech-became-a-cash-magnet%2Fwcm%2F2bf93df0-a60e-4aea-8689-522498e5ba17%2F&#038;title=The%20year%20Ottawa%20tech%20became%20a%20cash%20magnet" target="_blank" class="share-icon reddit"><span>Reddit</span></a>
+				</li>
+				<li>
+										<a href="mailto:?subject=Windsor%20Star%3A%20The%20year%20Ottawa%20tech%20became%20a%20cash%20magnet&amp;body=I%20wanted%20to%20share%20a%20story%20with%20you%20from%20Windsor%20Star%3A%0A%0AThe%20year%20Ottawa%20tech%20became%20a%20cash%20magnet%0A%0Ahttps%3A%2F%2Fwindsorstar.com%2Fbusiness%2Flocal-business%2Fthe-year-ottawa-tech-became-a-cash-magnet%2Fwcm%2F2bf93df0-a60e-4aea-8689-522498e5ba17%0A" class="share-icon email"><span>Email</span></a>
+				</li>
+				<li>
+					<a href="https://tumblr.com/widgets/share/tool?canonicalUrl=https%3A%2F%2Fwindsorstar.com%2Fbusiness%2Flocal-business%2Fthe-year-ottawa-tech-became-a-cash-magnet%2Fwcm%2F2bf93df0-a60e-4aea-8689-522498e5ba17%2F&#038;name=The%20year%20Ottawa%20tech%20became%20a%20cash%20magnet&#038;description" target="_blank" class="share-icon tumblr"><span>Tumblr</span></a>
+				</li>
+				<li>
+					<a href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwindsorstar.com%2Fbusiness%2Flocal-business%2Fthe-year-ottawa-tech-became-a-cash-magnet%2Fwcm%2F2bf93df0-a60e-4aea-8689-522498e5ba17%2F&#038;media=https%3A%2F%2Fpostmediaottawacitizen2.files.wordpress.com%2F2016%2F05%2Fassent-compliance1.jpeg%3Fw%3D840%26h%3D630%26crop%3D1%26quality%3D80%26strip%3Dall&#038;description=The%20year%20Ottawa%20tech%20became%20a%20cash%20magnet" target="_blank" class="share-icon pin"><span>Pinterest</span></a>
+				</li>
+								<li>
+					<a href="https://plus.google.com/share?url=https%3A%2F%2Fwindsorstar.com%2Fbusiness%2Flocal-business%2Fthe-year-ottawa-tech-became-a-cash-magnet%2Fwcm%2F2bf93df0-a60e-4aea-8689-522498e5ba17%2F" target="_blank" class="share-icon google"><span>Google+</span></a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Fwindsorstar.com%2Fbusiness%2Flocal-business%2Fthe-year-ottawa-tech-became-a-cash-magnet%2Fwcm%2F2bf93df0-a60e-4aea-8689-522498e5ba17%2F&#038;title=The%20year%20Ottawa%20tech%20became%20a%20cash%20magnet&#038;summary" target="_blank" class="share-icon lin"><span>LinkedIn</span></a>
+				</li>
+			</ul>
+			<!-- / share-social -->
+		</div>
+		<!-- / modal-content -->
+	</div>
+	<!-- / modal-wrap -->
+</div>
+<!-- / modal-share -->
+	</div><!-- / container -->
+</div><!-- / content -->
+
+	</div><!-- #content -->
+
+	<footer itemscope itemtype="https://schema.org/WPFooter" class="l-footer">
+		<div class="top-footer">
+			<div class="l-constrained container track_event" data-event-tracking="Footer - Categories">
+				<nav id="footer-nav" class="footer-nav"><ul id="menu-main-menu-1" class=""><li class="col menu-item-521722 news menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-has-children"><h2 class="head"><a href="https://windsorstar.com/category/news">News</a></h2>
+<ul class="subnav">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521738"><a href="https://windsorstar.com/category/news">All News</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521723"><a href="https://windsorstar.com/category/news/local-news">Local News</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521724"><a href="https://windsorstar.com/category/news/national">National</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521725"><a href="https://windsorstar.com/category/news/world">World</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-542039"><a href="https://windsorstar.com/traffic">Traffic</a></li>
+</ul>
+</li>
+<li class="col menu-item-521772 business menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-has-children"><h2 class="head"><a href="https://windsorstar.com/category/business">Business</a></h2>
+<ul class="subnav">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521775"><a href="https://windsorstar.com/category/business">All Business</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521774"><a href="https://windsorstar.com/category/business/local-business">Local Business</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521773"><a href="https://windsorstar.com/category/business/energy">Energy</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-has-children menu-item-521781"><a href="https://windsorstar.com/category/technology">Technology</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521776"><a href="https://business.financialpost.com/markets">FP Markets</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521777"><a href="https://business.financialpost.com/category/news/">FP Headlines</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521778"><a href="https://business.financialpost.com/category/personal-finance/">FP Money</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-939408"><a href="/category/business/small-business">Small Business</a></li>
+</ul>
+</li>
+<li class="col menu-item-521726 opinion menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-has-children"><h2 class="head"><a href="https://windsorstar.com/category/opinion">Opinion</a></h2>
+<ul class="subnav">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521739"><a href="https://windsorstar.com/category/opinion">All Opinion</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521729"><a href="https://windsorstar.com/category/opinion/editorials">Editorials</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521728"><a href="https://windsorstar.com/category/opinion/columnists">Columnists</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521727"><a href="https://windsorstar.com/category/opinion/letters">Letters</a></li>
+</ul>
+</li>
+<li class="col menu-item-521740 sports menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-has-children"><h2 class="head"><a href="https://windsorstar.com/category/sports">Sports</a></h2>
+<ul class="subnav">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521742"><a href="https://windsorstar.com/category/sports">All Sports</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-has-children menu-item-521741"><a href="https://windsorstar.com/category/sports/hockey">Hockey</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-has-children menu-item-521748"><a href="https://windsorstar.com/category/sports/football">Football</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-has-children menu-item-521745"><a href="https://windsorstar.com/category/sports/baseball">Baseball</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-has-children menu-item-521746"><a href="https://windsorstar.com/category/sports/basketball">Basketball</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-has-children menu-item-521749"><a href="https://windsorstar.com/category/sports/golf">Golf</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-has-children menu-item-521761"><a href="https://windsorstar.com/category/sports/soccer">Soccer</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521747"><a href="https://windsorstar.com/category/sports/curling">Curling</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521762"><a href="https://windsorstar.com/category/sports/tennis">Tennis</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521744"><a href="https://windsorstar.com/category/sports/auto-racing">Auto Racing</a></li>
+</ul>
+</li>
+<li class="col menu-item-521788 entertainment menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-has-children"><h2 class="head"><a href="https://windsorstar.com/category/entertainment">Arts</a></h2>
+<ul class="subnav">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521789"><a href="https://windsorstar.com/category/entertainment">All Arts</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521792"><a href="https://windsorstar.com/category/entertainment/local-arts">Local Arts</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-has-children menu-item-521793"><a href="https://windsorstar.com/category/entertainment/movies">Movies</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-has-children menu-item-521787"><a href="https://windsorstar.com/category/entertainment/television">Television</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-has-children menu-item-521794"><a href="https://windsorstar.com/category/entertainment/music">Music</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521790"><a href="https://windsorstar.com/category/entertainment/books">Books</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521791"><a href="https://windsorstar.com/category/entertainment/celebrity">Celebrity</a></li>
+</ul>
+</li>
+<li class="col menu-item-521803 life menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-has-children"><h2 class="head"><a href="https://windsorstar.com/category/life">Life</a></h2>
+<ul class="subnav">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-651838"><a href="/tag/milestones">Milestones</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521815"><a href="https://windsorstar.com/category/life">All Life</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521804"><a href="https://windsorstar.com/category/life/fashion-beauty">Fashion &amp; Beauty</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-has-children menu-item-521817"><a href="https://windsorstar.com/category/life/homes">Homes</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-has-children menu-item-521805"><a href="https://windsorstar.com/category/life/food">Food</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521807"><a href="https://windsorstar.com/category/life/from-the-vault">From the Vault</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-has-children menu-item-521814"><a href="https://windsorstar.com/category/health">Health</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-851883"><a href="https://windsorstar.com/category/life/life-by-design">Life By Design</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521813"><a href="https://windsorstar.com/category/life/parenting">Parenting</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521819"><a href="https://windsorstar.com/category/life/relationships">Relationships</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-521820"><a href="https://windsorstar.com/category/life/royals">Royals</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-543172"><a href="https://windsorstar.com/category/travel">Travel</a></li>
+</ul>
+</li>
+</ul></nav>				<!-- / navigation -->
+			</div>
+			<!-- / l-constrained -->
+		</div>
+		<!-- / top-footer -->
+		<div class="bottom-footer">
+			<div class="l-constrained container track_event" data-event-tracking="Footer - Info">
+				<div class="col footer-info">
+					<a href="https://www.postmedia.com" class="postmedia" title="Postmedia Network Inc."><img src="https://s2.wp.com/wp-content/themes/vip/postmedia-theme-broadsheet/images/common/logo-postmedia.png" alt="Postmedia Logo" /></a>
+					<p>365 Bloor St East, Toronto, ON, M4W3L4, www.postmedia.com</p>
+					<p class="copy">
+					&copy; <span itemprop="copyrightYear">2019</span> <span itemprop="copyrightHolder provider sourceOrganization" itemscope itemtype="https://schema.org/Organization" itemid=" https://www.postmedia.com"><span itemprop="name">Postmedia Network Inc.</span></span> All rights reserved.					</p>
+					<p class="restrictions">Unauthorized distribution, transmission or republication strictly prohibited.</p>
+					<p>Powered by <a href="https://vip.wordpress.com/?utm_source=vip_powered_wpcom&#038;utm_medium=web&#038;utm_campaign=VIP%20Footer%20Credit&#038;utm_term=windsorstar.com" rel="generator nofollow" class="powered-by-wpcom">WordPress.com VIP</a></p>
+				</div>
+
+				<ul id="menu-footer" class="footer-links"><li class="col menu-item-521689 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><h2 class="head">Classifieds</h2>
+<ul class="subnav">
+	<li id="menu-item-521691" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521691"><a href="https://driving.ca/">Driving</a></li>
+	<li id="menu-item-521694" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521694"><a href="http://windsorstar.remembering.ca">Obits</a></li>
+	<li id="menu-item-521693" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521693"><a href="http://www.legacy.com/celebration/windsorstar/">Announcements</a></li>
+	<li id="menu-item-521692" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521692"><a href="/flyercity">FlyerCity</a></li>
+	<li id="menu-item-541600" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-541600"><a href="http://working.com/windsor">Careers</a></li>
+	<li id="menu-item-521690" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521690"><a href="http://classifieds.windsorstar.com/">Browse Listings</a></li>
+	<li id="menu-item-521695" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521695"><a href="http://windsorstar.adperfect.com/">Place a Classified Ad</a></li>
+	<li id="menu-item-930609" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-930609"><a href="http://local.windsorstar.com">Local Directory</a></li>
+</ul>
+</li>
+<li class="col menu-item-521698 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><h2 class="head">Legal</h2>
+<ul class="subnav">
+	<li id="menu-item-521699" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521699"><a href="http://www.postmedia.com/privacy-statement/">Privacy</a></li>
+	<li id="menu-item-521700" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521700"><a href="http://www.canada.com/aboutus/termsofservice.html">Terms</a></li>
+	<li id="menu-item-521701" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521701"><a href="http://www.canada.com/aboutus/copyright.html">Copyright &amp; Permissions</a></li>
+</ul>
+</li>
+<li class="col menu-item-521702 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><h2 class="head">Services</h2>
+<ul class="subnav">
+	<li id="menu-item-521703" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521703"><a href="http://www.postmediaadvertising.com/audience/brand/windsor-star/">Advertise With Us</a></li>
+	<li id="menu-item-521846" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521846"><a href="/subscription">Subscribe</a></li>
+	<li id="menu-item-521847" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521847"><a href="/subscription/my-subscription">My Subscription</a></li>
+	<li id="menu-item-771944" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-771944"><a href="/edit-profile">Edit Profile</a></li>
+	<li id="menu-item-521704" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521704"><a href="/contact/">Contact</a></li>
+	<li id="menu-item-521705" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521705"><a href="http://epaper.windsorstar.com/epaper">ePaper</a></li>
+	<li id="menu-item-521850" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521850"><a href="/subscription">Digital Access</a></li>
+	<li id="menu-item-521707" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521707"><a href="http://www.windsorstar.com/contests/index.html">Contests</a></li>
+	<li id="menu-item-1098121" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1098121"><a href="https://contests.canada.com/windsorstar/partnerships/index.html">Partnerships</a></li>
+</ul>
+</li>
+<li class="col menu-item-521708 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><h2 class="head">Properties</h2>
+<ul class="subnav">
+	<li id="menu-item-521709" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521709"><a href="https://calgaryherald.com/">Calgary Herald</a></li>
+	<li id="menu-item-521710" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521710"><a href="http://o.canada.com/">Canada.com</a></li>
+	<li id="menu-item-521711" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521711"><a href="https://edmontonjournal.com/">Edmonton Journal</a></li>
+	<li id="menu-item-968137" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-968137"><a href="https://lfpress.com">London Free Press</a></li>
+	<li id="menu-item-521712" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521712"><a href="https://montrealgazette.com">Montreal Gazette</a></li>
+	<li id="menu-item-521713" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521713"><a href="https://nationalpost.com/">National Post</a></li>
+	<li id="menu-item-521714" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521714"><a href="https://ottawacitizen.com/">Ottawa Citizen</a></li>
+	<li id="menu-item-521715" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521715"><a href="https://leaderpost.com/">Leader-Post (Regina)</a></li>
+	<li id="menu-item-521716" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521716"><a href="https://thestarphoenix.com/">The StarPhoenix (Saskatoon)</a></li>
+	<li id="menu-item-521717" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521717"><a href="https://theprovince.com/">The Province (Vancouver)</a></li>
+	<li id="menu-item-521718" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521718"><a href="https://vancouversun.com/">Vancouver Sun</a></li>
+</ul>
+</li>
+</ul>			</div>
+			<!-- / l-constrained -->
+		</div>
+		<!-- / bottom-footer -->
+	</footer>
+
+</div><!-- #page -->
+
+<!-- wpcom_wp_footer -->
+<input type="hidden" id="dfp_weather_field_id" name="dfp_weather_field_id" value="2b31599d52" /><input type="hidden" name="_wp_http_referer" value="/business/local-business/the-year-ottawa-tech-became-a-cash-magnet/wcm/2bf93df0-a60e-4aea-8689-522498e5ba17" />			<script>
+				$ = jQuery.noConflict();
+
+				// dynamically load MG2 script to improve initial page load
+				function openNewsletterModal () {
+					var newsletterScript = document.getElementById('scriptMg2Widget');
+					if ( typeof newsletterScript.src == undefined || newsletterScript.src == '' ) {
+						newsletterScript.src = "";
+						newsletterScript.addEventListener( 'load', function () {
+							mg2WidgetAPI.openNewsletter( { defaultCategoryId: "12" } );
+						});
+					} else {
+						// script is already loaded
+						mg2WidgetAPI.openNewsletter( { defaultCategoryId: "12" } );
+					}
+				}
+			</script>
+								<script id="scriptMg2Widget"></script>
+				
+			<div id="mg2Widget-newsletter-container"></div>
+					<div style="display:none" id="signIn"></div>
+		<div style="display:none" id="returnSocial"></div>
+		<div style="display:none" id="returnTraditional"></div>
+		<script id='ownlocal-script' defer data-active='businesses' src='https://widget.secure.ownlocal.com/embed.js?uuid=4d9de90b-552c-4e16-9269-2cecda85461b&#038;?h=600&#038;min_featured_level=0&#038;category=all&#038;subcategory=all&#038;days_ago=30'></script>	<div style="display:none">
+	</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"Post Comment","connectingToText":"Connecting to %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"Log Out","loginText":"Log In","connectURL":"https:\/\/postmediawindsorstar2.wordpress.com\/public.api\/connect\/?action=request&domain=windsorstar.com","logoutURL":"https:\/\/postmediawindsorstar2.wordpress.com\/wp-login.php?action=logout&_wpnonce=e780fb6a6b","homeURL":"https:\/\/windsorstar.com\/","postID":"805558450942029663","gravDefault":"identicon","enterACommentError":"Please enter a comment","enterEmailError":"Please enter your email address here","invalidEmailError":"Invalid email address","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"Change","changeAccount":"Change Account","comment_registration":"","userIsLoggedIn":"","isJetpack":"","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1551752381j'></script>
+<link rel='stylesheet' id='all-css-0-3' href='https://s0.wp.com/_static/??-eJyljEEOwjAMBD9EsBBQtQfEW0xrNUaJY8UWFb8nBD6AuO2Odgc2DXMRJ3HwSJkMHqygxTzTwhg6DLdacLFI5DCbQUaWfQs7+PnulDWht6FFrCxrF37z/05BXTElqtxaNzcSPuj51l/z5XA+jcdhmKbx/gK+U2AN?cssminify=yes' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var comment_like_text = {"loading":"Loading..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyVjs0KwjAQBl/IugQs4kF8BAsePEqaLnZj/uwmrX17I1WpHgSvszN8C0MolHcRXYTYokWGngIEz9FiQ7IIJp3J8YwYqjvZjaCMZM5+9brAEWuonv4+RPKOD6NToHPuTn4inMlS8wJmy1losCeF4fZ9sun9gqFLnrsmTNhK1xjsfsjKW5tRMUX6UdfAAwX8J/oAOdzZrShLITaiXK31HWdcdwU='></script>
+<script type='text/javascript' src='https://platform.twitter.com/widgets.js?ver=20111117'></script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyVzEESgjAMAMAPGTMyjsjB8S2FRkxp0wwJ8H178uTFB+zioTBVcRLHsoHmbWYx9IPdaYUxh2kZeY2gTCi000oSWeZzshP+Y/W38zcVMtxZUat5ocjhO8WXQoiGyVAFcvAWNFkXpvY8y+NyHfruPvS3Ln0AMX5Kdw=='></script>
+<script type="text/javascript" src="https://static.freeskreen.com/publisher/1573/freeskreen.min.js?ver=5.2-beta1-45048" async="async"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pn_janrain_vars = {"ajaxurl":"https:\/\/postmediawindsorstar2.wordpress.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var postmedia_piano = {"paywall_exempt_ie":"1","endpoint":"\/\/experience.tinypass.com\/xbuilder\/experience\/load","theme":"vip\/postmedia-theme-broadsheet"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var PostmediaFB = {"appID":"239752276115767"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJzNU01PwzAM/UOkUTWVG+LADQ1p0hBwTRO3dZYv4rTQ/XoStkkcdqhAm7jF9vN7z07CPwKT3iVwiacBLBCfMPDgKVlQKFgwY4+OfmQMtlHEmUsjiDJ+c6rwV2j55oh/FC4KdA8ipDECD47pQ6bSdMOvpHqUZPIQM5IRIMP+kRXC3l3IyXMh4dvBxyS9ymVNPAIF7wgnYNhFYeGSypASup74k1ejKSAUzr+8FR+hHNn0eVX5E2gt9vPaC1WM6PcR4lyRdyJW9rI3schQsCZHJkeL7XwnWRtzDw0AqdBQQrmbOzTmTzR26Tc516wJ96DytoSEwRsF8ffj5MWZZY/1XHuXHbTe7xg6TJnl3t7VTbNqVnXd3Oov9tzorA=='></script>
+<script async type='text/javascript'src='https://cdn.mediavoice.com/nativeads/script/postmedia/polarAd-2.0-prod.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcomVipAnalytics = {"is_404":"0","is_home":"0","is_single":"1","is_front_page":"0","is_archive":"0","percentToTrack":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJy1TzEOwjAM/BDBKlXYEOIH3Zid1IKUJI3stKi/JyBKB2BgYPLpfL7zwTUp28dMMUMYVPLDyUWBjRpdgk6gDIUR/ZSdlXUnK/h8gG1wURlkCCiZuCDVj8TsWpKF+9EhM9rLW2w+U6DHa5B6yYFahy+bhfHOMPIE1qNI0TfzBo5koHnqD3O5e9uvTf8XGRrkgj2VyH3YVVrXuq4qve1uOlKaUg=='></script>
+<script type='text/javascript' src='https://pymx5.com/scripts/load_tags.js?ver=5.2-beta1-45048'></script>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/themes/vip/postmedia-theme-broadsheet/templates/snapgalleries/js/snapgalleries.js?m=1487082683h'></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script><script src="//stats.wp.com/w.js?59" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'79897690','blog_tz':'-4','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'79897690','v':'wpcom','tz':'-4','user_id':'0','post':'805558450942029663','subd':'postmediawindsorstar2'}]);
+function st_vt() {var x=document.createElement("img");x.src="https://pixel.wp.com/g.gif?blog=79897690&v=wpcomvt&tz=-4&user_id=0&post=805558450942029663&subd=postmediawindsorstar2&rand="+Math.random();}
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtib2E/SzdEJm0lUEtbdFU0fFk4cHZvcUFrZT90Tn4yQm1+R3NyNTc/MUhXW11WSmguZHBnMVY9MCxuSkdvb2hvSCZmTltdfm9zN3RnTVgvL0UsXXNDVnlKNVpNTWttY2xESDEyeWg3U3U0eTY3ejAsPVl0MFZXLjRlN29KLEMsbFZ6RDgmfHA1QUtvRyxoP1Z2anE3X3RTSFJfbWU/WncvRkoyeUYuT2k0Qz11K0t3PUtKT0YlMTcvd2ROW09oakh4fjBtUk9BTXJCZlEmeT8mV2Exc1JQfDR4cGc4dnVUWkIvWXN8'}]);
+_stq.push([ 'clickTrackerInit', '79897690', '805558450942029663' ]);
+	</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+			<!-- Chartbeat Code Begins -->
+			<script type="text/javascript">
+				var _sf_async_config = {};
+				_sf_async_config.uid = 34988;
+				_sf_async_config.domain = "postmedia.com";
+				_sf_async_config.useCanonical = true;
+				_sf_async_config.sections = "windsorstar.com";
+				_sf_async_config.videoPageGroups = true;
+
+				_sf_async_config.authors = "James Bagnall";
+				( function(){
+					function loadChartbeat() {
+						window._sf_endpt=(new Date()).getTime();
+						var e = document.createElement('script');
+						e.setAttribute('language', 'javascript');
+						e.setAttribute('type', 'text/javascript');
+						e.setAttribute('src', '//static.chartbeat.com/js/chartbeat_video.js');
+						document.body.appendChild(e);
+					}
+					var oldonload = window.onload;
+					window.onload = (typeof window.onload != 'function') ? loadChartbeat : function() { oldonload(); loadChartbeat(); };
+				})();
+			</script>
+			<!-- Chartbeat Code Ends -->
+							<script>
+				document.write('<scr' + 'ipt async type="text/javascript" src="//c.jsrdn.com/s/cs.js?p=22507"><\/sc' + 'ript>');
+			</script>
+			<div id="ds_default_anchor"></div>
+			<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
+</html>
